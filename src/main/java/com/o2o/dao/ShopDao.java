@@ -22,17 +22,25 @@ public interface ShopDao {
      * @return
      */
     int queryShopCount(@Param("shopCondition") Shop shopCondition);
+
     /**
-     * 新增店铺
+     * 增加店铺
+     * @param shop
+     * @return
      */
     int insertShop(Shop shop);
+
     /**
-     * 更新店铺信息
+     * 更新店铺
+     * @param shop
+     * @return
      */
      int updateShop(Shop shop);
+
     /**
-     *
-     * 通过shop id查询店铺
+     * 通过shopId查询店铺
+     * @param shopId
+     * @return
      */
     Shop queryByShopId(long shopId);
 }

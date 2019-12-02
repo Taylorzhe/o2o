@@ -448,3 +448,6 @@
 2019-09-13 12:09:30;296[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id = ? ORDER BY priority DESC 
 2019-09-13 12:09:30;296[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 1(Long)
 2019-09-13 12:09:30;296[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - <==      Total: 1
+2019-20-01 20:20:08;847[main]DEBUGcom.o2o.dao.ShopDao.insertShop - ==>  Preparing: insert into tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority,create_time, last_edit_time, enable_status,advice) values (?,?,?,?,?,? ,?,?,?,?,?,?,?) 
+2019-20-01 20:20:08;940[main]DEBUGcom.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺(String), test1(String), test1(String), test1(String), test1(String), null, 2019-12-01 20:20:08.065(Timestamp), null, 1(Integer), 审核中(String)
+2019-20-01 20:20:09;065[main]DEBUGcom.o2o.dao.ShopDao.insertShop - <==    Updates: 1

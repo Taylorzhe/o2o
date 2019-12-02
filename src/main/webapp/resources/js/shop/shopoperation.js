@@ -37,7 +37,7 @@ $(function() {
                     + shop.shopCategory.shopCategoryName + '</option>';
                 var tempAreaHtml = '';
                 // 初始化区域列表
-                data.area.map(function(item, index) {
+                data.areaList.map(function(item, index) {
                     tempAreaHtml += '<option data-id="' + item.areaId + '">'
                         + item.areaName + '</option>';
                 });

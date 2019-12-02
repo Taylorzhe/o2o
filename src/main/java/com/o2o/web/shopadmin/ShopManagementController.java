@@ -40,7 +40,10 @@ public class ShopManagementController {
     @Autowired
     private ShopCategoryService shopCategoryService;
 
-
+    /**
+     * 获取店铺信息
+     * @return
+     */
     @RequestMapping(value = "/getshopinitinfo", method = RequestMethod.GET)
     @ResponseBody
     private Map<String, Object> getShopInitInfo() {
@@ -69,7 +72,7 @@ public class ShopManagementController {
             Object currentShopObj = request.getSession().getAttribute("currentShop");
             if (currentShopObj == null){
                 modelMap.put("redirect", true);
-                modelMap.put("url", "/o2o/shop/shoplist");
+                modelMap.put("url", "/o2o/shopadmin/shoplist");
             }else {
                 Shop currentShop = (Shop) currentShopObj;
                 modelMap.put("redirect", false);
@@ -166,7 +169,9 @@ public class ShopManagementController {
 
         //2.注册店铺
         if (shop != null && shopImg != null){
-            PersonInfo owner = (PersonInfo)request.getSession().getAttribute("user");
+            PersonInfo owner = new PersonInfo();
+            //Session TODO
+            owner.setUserId(1L);
             shop.setOwner(owner);
             ShopExecution se;
             try {
@@ -229,7 +234,12 @@ public class ShopManagementController {
 
         //2.修改店铺信息
         if (shop != null && shop.getShopId() != null){
+            PersonInfo owner = new PersonInfo();
+            //Session TODO
+            owner.setUserId(1L);
+            shop.setOwner(owner);
             ShopExecution se;
+
             try {
                 if (shopImg == null){
                     se = shopService.modifyShop(shop, null);
@@ -240,7 +250,7 @@ public class ShopManagementController {
                 }
                 if (se.getState() == ShopStateEnum.SUCCESS.getState()){
                     modelMap.put("success",true);
-                    modelMap.put("errMsg", "注册成功");
+                    modelMap.put("errMsg", "修改成功");
                 }else{
                     modelMap.put("success", false);
                     modelMap.put("errMsg", se.getStateInfo());

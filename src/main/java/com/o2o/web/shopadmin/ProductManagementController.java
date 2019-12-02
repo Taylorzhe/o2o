@@ -115,6 +115,8 @@ public class ProductManagementController {
         // 接收前端参数的变量的初始化，包括商品，缩略图，详情图列表实体类
         ObjectMapper mapper = new ObjectMapper();
         Product product = null;
+        String productStr = HttpServletRequestUtil.getString(request, "productStr");
+        MultipartHttpServletRequest multipartHttpServletRequest = null;
         ImageHolder thumbnail = null;
         List<ImageHolder> productImgList = new ArrayList<ImageHolder>();
         CommonsMultipartResolver multipartResolver = new CommonsMultipartResolver(
@@ -122,6 +124,9 @@ public class ProductManagementController {
         try {
             // 若请求中存在文件流，则取出相关的文件（包括缩略图和详情图）
             if (multipartResolver.isMultipart(request)) {
+
+                //取出缩略图并构建ImageHolder对象
+
                 thumbnail = handleImage(request, thumbnail, productImgList);
             } else {
                 modelMap.put("success", false);
@@ -134,7 +139,7 @@ public class ProductManagementController {
             return modelMap;
         }
         try {
-            String productStr = HttpServletRequestUtil.getString(request, "productStr");
+
             // 尝试获取前端传过来的表单string流并将其转换成Product实体类
             product = mapper.readValue(productStr, Product.class);
         } catch (Exception e) {
