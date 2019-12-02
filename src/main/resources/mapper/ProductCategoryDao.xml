@@ -5,6 +5,7 @@
 
 <mapper namespace="com.o2o.dao.ProductCategoryDao">
     <select id="queryProductCategoryList" resultType="com.o2o.entity.ProductCategory" parameterType="Long">
+    <!-- 具体的sql -->
     SELECT
     product_category_id,
     product_category_name,
