@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.o2o.dao.AreaDaoTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.736 s <<< FAILURE! - in com.o2o.dao.AreaDaoTest
+testQueryArea(com.o2o.dao.AreaDaoTest)  Time elapsed: 0.578 s  <<< ERROR!
+org.springframework.jdbc.UncategorizedSQLException: 
+
+### Error querying database.  Cause: java.sql.SQLException: No database selected
+### The error may exist in file [C:\Users\Dell\IdeaProjects\o2o\target\classes\mapper\AreaDao.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT area_id,area_name,priority,create_time,last_edit_time     FROM tb_area     ORDER BY priority     DESC
+### Cause: java.sql.SQLException: No database selected
+; uncategorized SQLException; SQL state [3D000]; error code [1046]; No database selected; nested exception is java.sql.SQLException: No database selected
+	at com.o2o.dao.AreaDaoTest.testQueryArea(AreaDaoTest.java:21)
+Caused by: java.sql.SQLException: No database selected
+	at com.o2o.dao.AreaDaoTest.testQueryArea(AreaDaoTest.java:21)
+
