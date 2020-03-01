@@ -8,17 +8,28 @@ public class Product {
     private Long productId;
     private String productName;
     private String productDesc;
+    //简略图
     private String imgAddr;
     private String normalPrice;
     private String promotionPrice;
     private Integer priority;
+    private Integer point;
     private Date createTime;
     private Date lastEditTime;
-    private Integer enableStatus;  //0.下架 1.在前端展示系统中展示
+    //-1.不可用 0.下架 1.在前端展示系统中展示
+    private Integer enableStatus;
+
     private List<ProductImg> productImgList;
     private ProductCategory productCategory;
     private Shop shop;
 
+    public Integer getPoint() {
+        return point;
+    }
+
+    public void setPoint(Integer point) {
+        this.point = point;
+    }
 
     public Long getProductId() {
         return productId;

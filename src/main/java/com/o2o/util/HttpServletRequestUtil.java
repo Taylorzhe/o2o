@@ -15,6 +15,7 @@ public class HttpServletRequestUtil {
         try {
             return Long.valueOf(request.getParameter(key));
         }catch (Exception e){
+            e.printStackTrace();
             return -1;
         }
     }

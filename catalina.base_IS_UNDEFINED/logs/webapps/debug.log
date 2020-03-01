@@ -451,3 +451,32 @@
 2019-20-01 20:20:08;847[main]DEBUGcom.o2o.dao.ShopDao.insertShop - ==>  Preparing: insert into tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority,create_time, last_edit_time, enable_status,advice) values (?,?,?,?,?,? ,?,?,?,?,?,?,?) 
 2019-20-01 20:20:08;940[main]DEBUGcom.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺(String), test1(String), test1(String), test1(String), test1(String), null, 2019-12-01 20:20:08.065(Timestamp), null, 1(Integer), 审核中(String)
 2019-20-01 20:20:09;065[main]DEBUGcom.o2o.dao.ShopDao.insertShop - <==    Updates: 1
+2020-47-01 00:47:08;122[main]DEBUGcom.o2o.dao.AreaDao.queryArea - ==>  Preparing: SELECT * FROM tb_area ORDER BY priority DESC 
+2020-47-01 00:47:08;200[main]DEBUGcom.o2o.dao.AreaDao.queryArea - ==> Parameters: 
+2020-47-01 00:47:08;236[main]DEBUGcom.o2o.dao.AreaDao.queryArea - <==      Total: 0
+2020-47-01 00:47:23;723[main]DEBUGcom.o2o.dao.ShopDao.insertShop - ==>  Preparing: insert into tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority,create_time, last_edit_time, enable_status,advice) values (?,?,?,?,?,? ,?,?,?,?,?,?,?) 
+2020-47-01 00:47:23;793[main]DEBUGcom.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺(String), test1(String), test1(String), test1(String), test1(String), null, 2020-03-01 00:47:23.286(Timestamp), null, 1(Integer), 审核中(String)
+2020-47-01 00:47:48;089[main]DEBUGcom.o2o.dao.AreaDao.queryArea - ==>  Preparing: SELECT * FROM tb_area ORDER BY priority DESC 
+2020-47-01 00:47:48;143[main]DEBUGcom.o2o.dao.AreaDao.queryArea - ==> Parameters: 
+2020-47-01 00:47:48;176[main]DEBUGcom.o2o.dao.AreaDao.queryArea - <==      Total: 0
+2020-49-01 00:49:15;310[main]DEBUGcom.o2o.dao.AreaDao.queryArea - ==>  Preparing: SELECT * FROM tb_area ORDER BY priority DESC 
+2020-49-01 00:49:15;396[main]DEBUGcom.o2o.dao.AreaDao.queryArea - ==> Parameters: 
+2020-49-01 00:49:15;440[main]DEBUGcom.o2o.dao.AreaDao.queryArea - <==      Total: 0
+2020-47-01 11:47:37;942[main]DEBUGcom.o2o.dao.AreaDao.queryArea - ==>  Preparing: SELECT * FROM tb_area ORDER BY priority DESC 
+2020-47-01 11:47:38;000[main]DEBUGcom.o2o.dao.AreaDao.queryArea - ==> Parameters: 
+2020-47-01 11:47:38;038[main]DEBUGcom.o2o.dao.AreaDao.queryArea - <==      Total: 2
+2020-19-01 12:19:11;565[main]DEBUGcom.o2o.dao.ShopDao.insertShop - ==>  Preparing: insert into tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority,create_time, last_edit_time, enable_status,advice) values (?,?,?,?,?,? ,?,?,?,?,?,?,?) 
+2020-19-01 12:19:11;640[main]DEBUGcom.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺(String), test1(String), test1(String), test1(String), test1(String), null, 2020-03-01 12:19:11.102(Timestamp), null, 1(Integer), 审核中(String)
+2020-29-01 12:29:51;747[main]DEBUGcom.o2o.dao.ShopDao.insertShop - ==>  Preparing: insert into tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority,create_time, last_edit_time, enable_status,advice) values (?,?,?,?,?,? ,?,?,?,?,?,?,?) 
+2020-29-01 12:29:51;816[main]DEBUGcom.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺(String), test1(String), test1(String), test1(String), test1(String), null, 2020-03-01 12:29:51.309(Timestamp), null, 1(Integer), 审核中(String)
+2020-17-01 13:17:37;435[main]DEBUGcom.o2o.dao.ShopDao.insertShop - ==>  Preparing: insert into tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority,create_time, last_edit_time, enable_status,advice) values (?,?,?,?,?,? ,?,?,?,?,?,?,?) 
+2020-17-01 13:17:37;512[main]DEBUGcom.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺(String), test1(String), test1(String), test1(String), test1(String), null, 2020-03-01 13:17:36.94(Timestamp), null, 1(Integer), 审核中(String)
+2020-39-01 13:39:57;515[main]DEBUGcom.o2o.dao.ShopDao.insertShop - ==>  Preparing: insert into tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority,create_time, last_edit_time, enable_status,advice) values (?,?,?,?,?,? ,?,?,?,?,?,?,?) 
+2020-39-01 13:39:57;595[main]DEBUGcom.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺(String), test1(String), test1(String), test1(String), test1(String), null, 2020-03-01 13:39:57.075(Timestamp), null, 1(Integer), 审核中(String)
+2020-39-01 13:39:57;601[main]DEBUGcom.o2o.dao.ShopDao.insertShop - <==    Updates: 1
+2020-46-01 13:46:36;416[main]DEBUGcom.o2o.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_desc=?, shop_addr=?, last_edit_time=? where shop_id=? 
+2020-46-01 13:46:36;485[main]DEBUGcom.o2o.dao.ShopDao.updateShop - ==> Parameters: 奶茶10元，咖啡20元(String), 宜兴埠(String), 2020-03-01 13:46:35.965(Timestamp), 1(Long)
+2020-46-01 13:46:36;490[main]DEBUGcom.o2o.dao.ShopDao.updateShop - <==    Updates: 0
+2020-50-01 13:50:17;846[main]DEBUGcom.o2o.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_desc=?, shop_addr=?, last_edit_time=? where shop_id=? 
+2020-50-01 13:50:17;912[main]DEBUGcom.o2o.dao.ShopDao.updateShop - ==> Parameters: 奶茶10元，咖啡20元(String), 宜兴埠(String), 2020-03-01 13:50:17.404(Timestamp), 2(Long)
+2020-50-01 13:50:17;918[main]DEBUGcom.o2o.dao.ShopDao.updateShop - <==    Updates: 1

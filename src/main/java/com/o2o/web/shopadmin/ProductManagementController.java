@@ -61,6 +61,7 @@ public class ProductManagementController {
             // 获取传入的需要检索的条件，包括是否需要从某个商品类别以及模糊查找商品名去筛选某个店铺下的商品列表
             // 筛选的条件可以进行排列组合
             long productCategoryId = HttpServletRequestUtil.getLong(request, "productCategoryId");
+
             String productName = HttpServletRequestUtil.getString(request, "productName");
             Product productCondition = compactProductCondition(currentShop.getShopId(), productCategoryId, productName);
             // 传入查询条件以及分页信息进行查询，返回相应商品列表以及总数
@@ -72,6 +73,9 @@ public class ProductManagementController {
             modelMap.put("success", false);
             modelMap.put("errMsg", "empty pageSize or pageIndex or shopId");
         }
+
+
+
         return modelMap;
     }
 
@@ -115,7 +119,7 @@ public class ProductManagementController {
         // 接收前端参数的变量的初始化，包括商品，缩略图，详情图列表实体类
         ObjectMapper mapper = new ObjectMapper();
         Product product = null;
-        String productStr = HttpServletRequestUtil.getString(request, "productStr");
+
         MultipartHttpServletRequest multipartHttpServletRequest = null;
         ImageHolder thumbnail = null;
         List<ImageHolder> productImgList = new ArrayList<ImageHolder>();
@@ -139,12 +143,13 @@ public class ProductManagementController {
             return modelMap;
         }
         try {
-
+            String productStr = HttpServletRequestUtil.getString(request, "productStr");
             // 尝试获取前端传过来的表单string流并将其转换成Product实体类
             product = mapper.readValue(productStr, Product.class);
         } catch (Exception e) {
             modelMap.put("success", false);
             modelMap.put("errMsg", e.toString());
+            System.out.println("错误在这里");
             return modelMap;
         }
         // 若Product信息，缩略图以及详情图列表为非空，则开始进行商品添加操作

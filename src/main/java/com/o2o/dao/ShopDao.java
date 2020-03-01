@@ -26,7 +26,7 @@ public interface ShopDao {
     /**
      * 增加店铺
      * @param shop
-     * @return
+     * @return shop
      */
     int insertShop(Shop shop);
 

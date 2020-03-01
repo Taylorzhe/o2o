@@ -40,6 +40,9 @@ public class ProductServiceImpl implements ProductService {
         return pe;
     }
 
+
+
+
     @Override
     public Product getProductById(long productId) {
         return productDao.queryProductById(productId);

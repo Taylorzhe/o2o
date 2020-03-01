@@ -19,7 +19,7 @@ public class ShopAdminController {
         return "shop/shoplist";
     }
 
-    // 转发至电偶管理页面
+    // 转发至店铺管理页面
     @RequestMapping(value = "/shopmanagement")
     public String shopManagement(){
         return "shop/shopmanagement";
@@ -30,4 +30,18 @@ public class ShopAdminController {
     private String productCategoryManage() {
         return "shop/productcategorymanagement";
     }
+
+    @RequestMapping(value = "/productoperation")
+    public String productOperation() {
+        // 转发至商品添加/编辑页面
+        return "shop/productoperation";
+    }
+
+    @RequestMapping(value = "/productmanagement")
+    public String productManagement() {
+        // 转发至商品管理页面
+        return "shop/productmanagement";
+    }
+
+
 }
