@@ -29,7 +29,9 @@
             <result column="name" property="name"/>
         </association>
     </resultMap>
-    <select id="queryShopList" resultMap="shopMap">
+
+
+    <select id="queryShopList" resultMap="shopMap" parameterType="Long">
          SELECT
         s.shop_id,
         s.shop_name,
@@ -75,6 +77,8 @@
         s.priority DESC
         LIMIT #{rowIndex},#{pageSize};
     </select>
+
+
     <select id="queryShopCount" resultType="int">
         SELECT
         count(1)
@@ -141,6 +145,8 @@
         (#{owner.userId},#{area.areaId},#{shopCategory.shopCategoryId},#{shopName},#{shopDesc},#{shopAddr}
         ,#{phone},#{shopImg},#{priority},#{createTime},#{lastEditTime},#{enableStatus},#{advice})
     </insert>
+
+
     <update id="updateShop" parameterType="com.o2o.entity.Shop">
         update tb_shop
         <set>

@@ -90,8 +90,14 @@ public class ShopManagementController {
     @RequestMapping(value = "/getshoplist", method = RequestMethod.GET)
     @ResponseBody
     private Map<String, Object> getShopList(HttpServletRequest request) {
-        Map<String, Object> modelMap = new HashMap<String, Object>();
+//        PersonInfo user = new PersonInfo();
+//        user.setUserId(1L);
+//        user.setName("王哲");
+        String user1 = HttpServletRequestUtil.getString(request, "user");
+        System.out.println(user1 + "用户");
         PersonInfo user = (PersonInfo) request.getSession().getAttribute("user");
+        Map<String, Object> modelMap = new HashMap<String, Object>();
+        request.getSession().setAttribute("user", user);
         try {
             Shop shopCondition = new Shop();
             shopCondition.setOwner(user);
@@ -145,6 +151,7 @@ public class ShopManagementController {
         ObjectMapper mapper = new ObjectMapper();
         Shop shop = null;
         try {
+            //jason类转实体对象
             shop = mapper.readValue(shopStr,Shop.class);
         } catch (Exception e) {
             modelMap.put("success",false);
@@ -165,9 +172,10 @@ public class ShopManagementController {
 
         //2.注册店铺
         if (shop != null && shopImg != null){
-            PersonInfo owner = new PersonInfo();
-            //Session TODO
-            owner.setUserId(1L);
+            PersonInfo owner = (PersonInfo) request.getSession().getAttribute("user");
+//            PersonInfo owner = new PersonInfo();
+//            //Session TODO
+//            owner.setUserId(1L);
             shop.setOwner(owner);
             ShopExecution se;
             try {

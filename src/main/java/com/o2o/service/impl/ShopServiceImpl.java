@@ -79,7 +79,7 @@ public class ShopServiceImpl implements ShopService {
     @Override
     @Transactional
     public ShopExecution addShop(Shop shop, ImageHolder thumbnail) throws ShopOperationException {
-        // 空值判断
+        // 判断shop是否为空值
         if (shop == null) {
             return new ShopExecution(ShopStateEnum.NULL_SHOP);
         }

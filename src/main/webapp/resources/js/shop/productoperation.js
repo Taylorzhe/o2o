@@ -84,14 +84,17 @@ $(function() {
     // 提交按钮的事件响应，分别对商品添加和编辑操作做不同响应
     $('#submit').click(
         function() {
-            // 创建商品json对象，并从表单里面获取对应的属性值
+            // 创建商品json对z象，并从表单里面获取对应的属性值
             var product = {};
-            product.productName = $('#product-name').val();
+            product.productName = $('#product_name').val();
             product.productDesc = $('#product-desc').val();
             product.priority = $('#priority').val();
             product.point = $('#point').val();
             product.normalPrice = $('#normal-price').val();
             product.promotionPrice = $('#promotion-price').val();
+
+            console.log("666::: ", product);
+            debugger;
             // 获取选定的商品类别值
             product.productCategory = {
                 productCategoryId : $('#category').find('option').not(

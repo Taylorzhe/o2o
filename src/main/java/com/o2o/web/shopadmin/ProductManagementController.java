@@ -1,6 +1,7 @@
 package com.o2o.web.shopadmin;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.o2o.dao.ProductDao;
 import com.o2o.dto.ImageHolder;
 import com.o2o.dto.ProductExecution;
 import com.o2o.entity.Product;
@@ -36,6 +37,8 @@ public class ProductManagementController {
     private ProductService productService;
     @Autowired
     private ProductCategoryService productCategoryService;
+    @Autowired
+    ProductDao productDao;
 
     // 支持上传商品详情图的最大数量
     private static final int IMAGEMAXCOUNT = 6;
@@ -49,33 +52,39 @@ public class ProductManagementController {
     @RequestMapping(value = "/getproductlistbyshop", method = RequestMethod.GET)
     @ResponseBody
     private Map<String, Object> getProductListByShop(HttpServletRequest request) {
+//        System.out.println("url:::" + request.getRequestURL().toString());
         Map<String, Object> modelMap = new HashMap<String, Object>();
         // 获取前台传过来的页码
-        int pageIndex = HttpServletRequestUtil.getInt(request, "pageIndex");
+//        int pageIndex = HttpServletRequestUtil.getInt(request, "pageIndex");  //1
         // 获取前台传过来的每页要求返回的商品数上限
-        int pageSize = HttpServletRequestUtil.getInt(request, "pageSize");
+//        int pageSize = HttpServletRequestUtil.getInt(request, "pageSize");  //2
         // 从当前session中获取店铺信息，主要是获取shopId
         Shop currentShop = (Shop) request.getSession().getAttribute("currentShop");
         // 空值判断
-        if ((pageIndex > -1) && (pageSize > -1) && (currentShop != null) && (currentShop.getShopId() != null)) {
+        if ((currentShop != null) && (currentShop.getShopId() != null)) {
+//        if ((pageIndex > -1) && (pageSize > -1) && (currentShop != null) && (currentShop.getShopId() != null)) {
             // 获取传入的需要检索的条件，包括是否需要从某个商品类别以及模糊查找商品名去筛选某个店铺下的商品列表
             // 筛选的条件可以进行排列组合
-            long productCategoryId = HttpServletRequestUtil.getLong(request, "productCategoryId");
+//            long productCategoryId = HttpServletRequestUtil.getLong(request, "productCategoryId");
 
-            String productName = HttpServletRequestUtil.getString(request, "productName");
-            Product productCondition = compactProductCondition(currentShop.getShopId(), productCategoryId, productName);
+            List<HashMap<String, Object>> productList111;
+            productList111 =  productDao.findProId(currentShop.getShopId());
+            System.out.println("productList111::: "+ productList111);
+
+
+//            String productName = HttpServletRequestUtil.getString(request, "productName"); //3
+//            Product productCondition = compactProductCondition(currentShop.getShopId(), productCategoryId, productName);
             // 传入查询条件以及分页信息进行查询，返回相应商品列表以及总数
-            ProductExecution pe = productService.getProductList(productCondition, pageIndex, pageSize);
-            modelMap.put("productList", pe.getProductList());
-            modelMap.put("count", pe.getCount());
+//            ProductExecution pe = productService.getProductList(productCondition, pageIndex, pageSize);
+            modelMap.put("productList", productList111);
+//            modelMap.put("productList", pe.getProductList());
+//            modelMap.put("count", pe.getCount());
+            modelMap.put("count", productList111.size());
             modelMap.put("success", true);
         } else {
             modelMap.put("success", false);
             modelMap.put("errMsg", "empty pageSize or pageIndex or shopId");
         }
-
-
-
         return modelMap;
     }
 

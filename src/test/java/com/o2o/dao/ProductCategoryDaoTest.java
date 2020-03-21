@@ -3,6 +3,7 @@ package com.o2o.dao;
 import com.o2o.BaseTest;
 import com.o2o.entity.ProductCategory;
 import org.junit.FixMethodOrder;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,12 +21,13 @@ public class ProductCategoryDaoTest extends BaseTest {
 
     @Test
     public void testBQueryByShopId() throws Exception{
-        long shopId = 1;
+        long shopId = 6;
         List<ProductCategory> productCategoryList = productCategoryDao.queryProductCategoryList(shopId);
         System.out.println("该店铺自定义商品类别数为：" + productCategoryList.size());
     }
 
     @Test
+    @Ignore
     public void testABatchInsertProductCategory(){
         ProductCategory productCategory = new ProductCategory();
         productCategory.setProductCategoryName("商品类别1");
@@ -45,6 +47,7 @@ public class ProductCategoryDaoTest extends BaseTest {
     }
 
     @Test
+    @Ignore
     public void testCDeleteProductCategory() throws Exception{
         long shopId = 1;
         List<ProductCategory> productCategoryList = productCategoryDao.queryProductCategoryList(shopId);

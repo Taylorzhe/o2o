@@ -15,7 +15,7 @@ public class ShopCategoryServiceTest extends BaseTest {
 
     @Test
     public void testGetShopCategoryList() {
-        List<ShopCategory> categoryList = shopCategoryService.getShopCategoryList(null);
+        List<ShopCategory> categoryList = shopCategoryService.getShopCategoryList(new ShopCategory());
         System.out.println(categoryList.get(0).getShopCategoryName());
         ShopCategory shopCategoryCondition = new ShopCategory();
         ShopCategory parent = new ShopCategory();

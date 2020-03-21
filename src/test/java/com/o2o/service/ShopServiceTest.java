@@ -38,18 +38,18 @@ public class ShopServiceTest extends BaseTest {
         ShopCategory sc = new ShopCategory();
         sc.setShopCategoryId(1L);
         shopCondition.setShopCategory(sc);
-        ShopExecution se = shopService.getShopList(shopCondition, 2,2);
+        ShopExecution se = shopService.getShopList(shopCondition, 4,1);
         System.out.println("店铺列表数为：" + se.getShopList().size());
         System.out.println("店铺总数为：" + se.getCount());
     }
 
     @Test
-    @Ignore
     @Rollback(false)
     public void testModifyShop() throws ShopOperationException, FileNotFoundException{
         Shop shop = new Shop();
-        shop.setShopId(27L);
-        shop.setShopName("修改后的店铺名称");
+        shop.setShopId(4L);
+        shop.setShopName("金坷垃");
+        shop.setShopDesc("化肥中的战斗机");
         File shopImage = new File("C:/pic/dabai.jpg");
         InputStream is = new FileInputStream(shopImage);
         ImageHolder imageHolder = new ImageHolder("dabai.jpg", is);
@@ -58,6 +58,8 @@ public class ShopServiceTest extends BaseTest {
     }
 
     @Test
+    @Ignore
+    @Rollback(false)
     public void testAddShop() throws FileNotFoundException {
         Shop shop = new Shop();
         PersonInfo owner = new PersonInfo();
@@ -79,7 +81,7 @@ public class ShopServiceTest extends BaseTest {
         File shopImage = new File("C:/pic/timg.jpg");
         InputStream is = new FileInputStream(shopImage);
         ImageHolder imageHolder = new ImageHolder(shopImage.getName(),is);
-        ShopExecution se = shopService.modifyShop(shop, imageHolder);
+        ShopExecution se = shopService.addShop(shop, imageHolder);
         assertEquals(ShopStateEnum.CHECK.getState(),se.getState());
     }
 

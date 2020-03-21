@@ -19,7 +19,7 @@ public class ShopDaoTest extends BaseTest {
     private ShopDao shopDao;
 
     @Test
-    @Ignore
+
     public void testQueryShopListAndCount(){
         Shop shopCondition = new Shop();
         PersonInfo owner = new PersonInfo();
@@ -29,16 +29,27 @@ public class ShopDaoTest extends BaseTest {
         int count = shopDao.queryShopCount(shopCondition);
         System.out.println("店铺列表的大小：" + shopList.size());
         System.out.println("店铺总数:" + count);
+        System.out.println("----------------------------------------------");
+        ShopCategory sc = new ShopCategory();
+        sc.setShopCategoryId(2L);
+        shopCondition.setShopCategory(sc);
+        shopList = shopDao.queryShopList(shopCondition, 0, 1);
+        System.out.println("新店铺列的大小" + shopList.size());
+        count = shopDao.queryShopCount(shopCondition);
+        System.out.println("新店铺总数:" + count);
     }
+
     @Test
     @Ignore
     public void testQueryByShopId(){
-        long shopId = 27L;
+        long shopId = 2L;
         Shop shop = shopDao.queryByShopId(shopId);
         System.out.println("areaId" + shop.getArea().getAreaId());
         System.out.println("areaName" + shop.getArea().getAreaName());
     }
+
     @Test
+    @Ignore
     public void testInsertShop(){
         Shop shop = new Shop();
         PersonInfo owner = new PersonInfo();
@@ -61,7 +72,10 @@ public class ShopDaoTest extends BaseTest {
         int effectedNum = shopDao.insertShop(shop);
         assertEquals(1,effectedNum);
     }
+
+
     @Test
+    @Ignore
     public void testUpdateShop(){
         Shop shop = new Shop();
         shop.setShopId(2L);

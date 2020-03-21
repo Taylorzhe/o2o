@@ -17,6 +17,8 @@
 		ORDER BY
 		product_img_id ASC
 	</select>
+
+
     <insert id="batchInsertProductImg" parameterType="java.util.List">
         INSERT INTO
         tb_product_img(img_addr,img_desc,priority,

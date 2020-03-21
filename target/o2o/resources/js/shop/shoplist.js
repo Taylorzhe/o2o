@@ -1,8 +1,10 @@
 $(function(){
     getlist();
     function getlist(e) {
+        sessionStorage.setItem("user", "wz");
         $.ajax({
             url:"/o2o/shopadmin/getshoplist",
+            data: {user:sessionStorage.getItem("user")},
             type:"get",
             dataType:"json",
             success:function (data) {
@@ -14,7 +16,9 @@ $(function(){
         });
     }
     function handleUser(data) {
-        $('user-name').text(data.name);
+        console.log(111, data);
+        document.getElementById("user-name").innerHTML = "123";
+        // $("user-name").text("123");
     }
 
     function handleList(data) {
@@ -31,17 +35,17 @@ $(function(){
     }
 
     function shopStatus(status) {
-        if (status == 0){
+        if (status === 0){
             return '审核中';
-        } else if (status == -1){
+        } else if (status === -1){
             return '店铺非法'
-        } else if (status == 1) {
+        } else if (status === 1) {
             return '审核通过';
         }
     }
 
     function goShop(status, id) {
-        if (status == 1) {
+        if (status === 1) {
             return '<a href="/o2o/shopadmin/shopmanagement?shopId=' + id
                 + '">进入</a>';
         } else {

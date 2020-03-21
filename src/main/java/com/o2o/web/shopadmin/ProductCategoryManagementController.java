@@ -29,9 +29,9 @@ public class ProductCategoryManagementController {
     @ResponseBody
     private Result<List<ProductCategory>> getProductCategoryList(HttpServletRequest request){
         //To be removed
-        Shop shop = new Shop();
-        shop.setShopId(1L);
-        request.getSession().setAttribute("currentShop", shop);
+//        Shop shop = new Shop();
+//        shop.setShopId(2L);
+//        request.getSession().setAttribute("currentShop", shop);
 
         Shop currentShop = (Shop)request.getSession().getAttribute("currentShop");
         List<ProductCategory> list = null;
@@ -52,7 +52,7 @@ public class ProductCategoryManagementController {
         for (ProductCategory pc : productCategoryList) {
             pc.setShopId(currentShop.getShopId());
         }
-        if (productCategoryList != null && productCategoryList.size() > 0){
+        if (productCategoryList.size() > 0){
             try{
                 ProductCategoryExecution pe = new ProductCategoryExecution();
                 pe = productCategoryService.batchAddProductCategory(productCategoryList);

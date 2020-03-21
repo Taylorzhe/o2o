@@ -480,3 +480,498 @@
 2020-50-01 13:50:17;846[main]DEBUGcom.o2o.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_desc=?, shop_addr=?, last_edit_time=? where shop_id=? 
 2020-50-01 13:50:17;912[main]DEBUGcom.o2o.dao.ShopDao.updateShop - ==> Parameters: 奶茶10元，咖啡20元(String), 宜兴埠(String), 2020-03-01 13:50:17.404(Timestamp), 2(Long)
 2020-50-01 13:50:17;918[main]DEBUGcom.o2o.dao.ShopDao.updateShop - <==    Updates: 1
+2020-32-01 14:32:56;449[main]DEBUGcom.o2o.dao.ShopDao.insertShop - ==>  Preparing: insert into tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority,create_time, last_edit_time, enable_status,advice) values (?,?,?,?,?,? ,?,?,?,?,?,?,?) 
+2020-32-01 14:32:56;501[main]DEBUGcom.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 王哲的铺子(String), test3(String), test3(String), test3(String), null, null, 2020-03-01 14:32:56.409(Timestamp), 2020-03-01 14:32:56.409(Timestamp), 0(Integer), 审核中(String)
+2020-32-01 14:32:56;505[main]DEBUGcom.o2o.dao.ShopDao.insertShop - <==    Updates: 1
+2020-32-01 14:32:56;528[main]DEBUGcom.o2o.util.ImageUtil - current relativeAddr is:upload\item\shop\3\2020030114325674464.jpg
+2020-32-01 14:32:56;755[main]DEBUGcom.o2o.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_name=?, shop_desc=?, shop_addr=?, phone=?, shop_img=?, last_edit_time=?, enable_status=?, advice=?, area_id=?, shop_category_id=? where shop_id=? 
+2020-32-01 14:32:56;756[main]DEBUGcom.o2o.dao.ShopDao.updateShop - ==> Parameters: 王哲的铺子(String), test3(String), test3(String), test3(String), upload\item\shop\3\2020030114325674464.jpg(String), 2020-03-01 14:32:56.409(Timestamp), 0(Integer), 审核中(String), 2(Integer), 1(Long), 3(Long)
+2020-32-01 14:32:56;757[main]DEBUGcom.o2o.dao.ShopDao.updateShop - <==    Updates: 1
+2020-36-01 14:36:16;949[main]DEBUGcom.o2o.dao.ShopDao.insertShop - ==>  Preparing: insert into tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority,create_time, last_edit_time, enable_status,advice) values (?,?,?,?,?,? ,?,?,?,?,?,?,?) 
+2020-36-01 14:36:17;005[main]DEBUGcom.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 王哲的铺子(String), test3(String), test3(String), test3(String), null, null, 2020-03-01 14:36:16.909(Timestamp), 2020-03-01 14:36:16.909(Timestamp), 0(Integer), 审核中(String)
+2020-36-01 14:36:17;008[main]DEBUGcom.o2o.dao.ShopDao.insertShop - <==    Updates: 1
+2020-36-01 14:36:17;029[main]DEBUGcom.o2o.util.ImageUtil - current relativeAddr is:upload\item\shop\4\2020030114361742088.jpg
+2020-36-01 14:36:17;173[main]DEBUGcom.o2o.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_name=?, shop_desc=?, shop_addr=?, phone=?, shop_img=?, last_edit_time=?, enable_status=?, advice=?, area_id=?, shop_category_id=? where shop_id=? 
+2020-36-01 14:36:17;173[main]DEBUGcom.o2o.dao.ShopDao.updateShop - ==> Parameters: 王哲的铺子(String), test3(String), test3(String), test3(String), upload\item\shop\4\2020030114361742088.jpg(String), 2020-03-01 14:36:16.909(Timestamp), 0(Integer), 审核中(String), 2(Integer), 1(Long), 4(Long)
+2020-36-01 14:36:17;175[main]DEBUGcom.o2o.dao.ShopDao.updateShop - <==    Updates: 1
+2020-44-01 14:44:43;914[main]DEBUGcom.o2o.dao.ShopDao.insertShop - ==>  Preparing: insert into tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority,create_time, last_edit_time, enable_status,advice) values (?,?,?,?,?,? ,?,?,?,?,?,?,?) 
+2020-44-01 14:44:43;984[main]DEBUGcom.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 王哲的铺子(String), test3(String), test3(String), test3(String), null, null, 2020-03-01 14:44:43.866(Timestamp), 2020-03-01 14:44:43.866(Timestamp), 0(Integer), 审核中(String)
+2020-44-01 14:44:43;988[main]DEBUGcom.o2o.dao.ShopDao.insertShop - <==    Updates: 1
+2020-44-01 14:44:44;019[main]DEBUGcom.o2o.util.ImageUtil - current relativeAddr is:upload\item\shop\5\2020030114444429062.jpg
+2020-44-01 14:44:44;204[main]DEBUGcom.o2o.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_name=?, shop_desc=?, shop_addr=?, phone=?, shop_img=?, last_edit_time=?, enable_status=?, advice=?, area_id=?, shop_category_id=? where shop_id=? 
+2020-44-01 14:44:44;205[main]DEBUGcom.o2o.dao.ShopDao.updateShop - ==> Parameters: 王哲的铺子(String), test3(String), test3(String), test3(String), upload\item\shop\5\2020030114444429062.jpg(String), 2020-03-01 14:44:43.866(Timestamp), 0(Integer), 审核中(String), 2(Integer), 1(Long), 5(Long)
+2020-44-01 14:44:44;207[main]DEBUGcom.o2o.dao.ShopDao.updateShop - <==    Updates: 1
+2020-45-01 14:45:42;629[main]DEBUGcom.o2o.dao.ShopDao.insertShop - ==>  Preparing: insert into tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority,create_time, last_edit_time, enable_status,advice) values (?,?,?,?,?,? ,?,?,?,?,?,?,?) 
+2020-45-01 14:45:42;709[main]DEBUGcom.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 王哲的铺子(String), test3(String), test3(String), test3(String), null, null, 2020-03-01 14:45:42.582(Timestamp), 2020-03-01 14:45:42.582(Timestamp), 0(Integer), 审核中(String)
+2020-45-01 14:45:42;712[main]DEBUGcom.o2o.dao.ShopDao.insertShop - <==    Updates: 1
+2020-45-01 14:45:42;744[main]DEBUGcom.o2o.util.ImageUtil - current relativeAddr is:upload\item\shop\6\2020030114454295621.jpg
+2020-45-01 14:45:42;945[main]DEBUGcom.o2o.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_name=?, shop_desc=?, shop_addr=?, phone=?, shop_img=?, last_edit_time=?, enable_status=?, advice=?, area_id=?, shop_category_id=? where shop_id=? 
+2020-45-01 14:45:42;947[main]DEBUGcom.o2o.dao.ShopDao.updateShop - ==> Parameters: 王哲的铺子(String), test3(String), test3(String), test3(String), upload\item\shop\6\2020030114454295621.jpg(String), 2020-03-01 14:45:42.582(Timestamp), 0(Integer), 审核中(String), 2(Integer), 1(Long), 6(Long)
+2020-45-01 14:45:42;950[main]DEBUGcom.o2o.dao.ShopDao.updateShop - <==    Updates: 1
+2020-37-02 12:37:16;179[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id is not null ORDER BY priority DESC 
+2020-37-02 12:37:16;260[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
+2020-37-02 12:37:16;304[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - <==      Total: 0
+2020-38-02 12:38:45;528[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id is not null ORDER BY priority DESC 
+2020-38-02 12:38:45;584[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
+2020-38-02 12:38:45;619[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - <==      Total: 0
+2020-39-02 12:39:22;095[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id is not null ORDER BY priority DESC 
+2020-39-02 12:39:22;163[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
+2020-39-02 12:39:22;202[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - <==      Total: 0
+2020-49-02 12:49:17;476[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category ORDER BY priority DESC 
+2020-49-02 12:49:17;555[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
+2020-49-02 12:49:17;606[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - <==      Total: 1
+2020-52-02 12:52:08;886[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category ORDER BY priority DESC 
+2020-52-02 12:52:08;961[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
+2020-52-02 12:52:09;012[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - <==      Total: 2
+2020-53-02 12:53:03;816[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category ORDER BY priority DESC 
+2020-53-02 12:53:03;895[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
+2020-53-02 12:53:03;944[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - <==      Total: 2
+2020-53-02 12:53:03;956[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id = ? ORDER BY priority DESC 
+2020-53-02 12:53:03;958[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 1(Long)
+2020-53-02 12:53:03;959[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - <==      Total: 0
+2020-53-02 12:53:46;647[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id is not null ORDER BY priority DESC 
+2020-53-02 12:53:46;704[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
+2020-53-02 12:53:46;746[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - <==      Total: 0
+2020-01-02 13:01:11;415[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category ORDER BY priority DESC 
+2020-01-02 13:01:11;471[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
+2020-01-02 13:01:11;512[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - <==      Total: 2
+2020-01-02 13:01:11;523[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id = ? ORDER BY priority DESC 
+2020-01-02 13:01:11;524[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 1(Long)
+2020-01-02 13:01:11;525[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - <==      Total: 0
+2020-11-02 13:11:21;543[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category ORDER BY priority DESC 
+2020-11-02 13:11:21;601[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
+2020-11-02 13:11:21;644[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - <==      Total: 2
+2020-11-02 13:11:21;654[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id = ? ORDER BY priority DESC 
+2020-11-02 13:11:21;654[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 1(Long)
+2020-11-02 13:11:21;655[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - <==      Total: 0
+2020-14-02 13:14:19;484[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id = ? ORDER BY priority DESC 
+2020-14-02 13:14:19;538[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 1(Long)
+2020-14-02 13:14:19;579[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - <==      Total: 0
+2020-15-02 13:15:06;036[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category ORDER BY priority DESC 
+2020-15-02 13:15:06;095[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
+2020-15-02 13:15:06;141[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - <==      Total: 2
+2020-15-02 13:15:06;151[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id = ? ORDER BY priority DESC 
+2020-15-02 13:15:06;151[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 1(Long)
+2020-15-02 13:15:06;152[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - <==      Total: 0
+2020-15-02 13:15:47;093[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category ORDER BY priority DESC 
+2020-15-02 13:15:47;160[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
+2020-15-02 13:15:47;197[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - <==      Total: 2
+2020-20-02 13:20:01;158[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id = ? ORDER BY priority DESC 
+2020-20-02 13:20:01;159[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 1(Long)
+2020-20-02 13:20:01;160[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - <==      Total: 0
+2020-20-02 13:20:26;443[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category ORDER BY priority DESC 
+2020-20-02 13:20:26;498[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
+2020-20-02 13:20:26;537[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - <==      Total: 2
+2020-20-02 13:20:44;099[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id = ? ORDER BY priority DESC 
+2020-20-02 13:20:44;099[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 1(Long)
+2020-20-02 13:20:44;100[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - <==      Total: 0
+2020-21-02 13:21:34;570[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category ORDER BY priority DESC 
+2020-21-02 13:21:34;629[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
+2020-21-02 13:21:34;666[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - <==      Total: 2
+2020-21-02 13:21:34;675[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id = ? ORDER BY priority DESC 
+2020-21-02 13:21:34;676[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 1(Long)
+2020-21-02 13:21:34;677[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - <==      Total: 0
+2020-34-02 13:34:44;620[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category ORDER BY priority DESC 
+2020-34-02 13:34:44;703[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
+2020-34-02 13:34:44;753[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - <==      Total: 2
+2020-34-02 13:34:44;768[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id = ? ORDER BY priority DESC 
+2020-34-02 13:34:44;769[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 1(Long)
+2020-34-02 13:34:44;771[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - <==      Total: 1
+2020-42-02 13:42:24;403[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category ORDER BY priority DESC 
+2020-42-02 13:42:24;455[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
+2020-42-02 13:42:24;501[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - <==      Total: 2
+2020-42-02 13:42:24;511[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id = ? ORDER BY priority DESC 
+2020-42-02 13:42:24;512[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 1(Long)
+2020-42-02 13:42:24;513[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - <==      Total: 1
+2020-42-02 13:42:51;024[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category ORDER BY priority DESC 
+2020-42-02 13:42:51;086[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
+2020-42-02 13:42:51;127[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - <==      Total: 2
+2020-44-02 13:44:52;587[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id = ? ORDER BY priority DESC 
+2020-44-02 13:44:52;588[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 1(Long)
+2020-44-02 13:44:52;589[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - <==      Total: 1
+2020-45-02 13:45:37;260[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category ORDER BY priority DESC 
+2020-45-02 13:45:37;318[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
+2020-45-02 13:45:37;354[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - <==      Total: 2
+2020-45-02 13:45:37;364[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id = ? ORDER BY priority DESC 
+2020-45-02 13:45:37;365[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 1(Long)
+2020-45-02 13:45:37;366[main]DEBUGcom.o2o.dao.ShopCategoryDao.queryShopCategory - <==      Total: 1
+2020-14-02 14:14:05;333[main]DEBUGcom.o2o.dao.ShopDao.queryByShopId - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.area_id = a.area_id AND s.shop_category_id = sc.shop_category_id AND s.shop_id = ? 
+2020-14-02 14:14:05;410[main]DEBUGcom.o2o.dao.ShopDao.queryByShopId - ==> Parameters: 2(Long)
+2020-14-02 14:14:05;466[main]DEBUGcom.o2o.dao.ShopDao.queryByShopId - <==      Total: 1
+2020-29-02 14:29:46;807[main]DEBUGcom.o2o.dao.ShopDao.queryByShopId - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.area_id = a.area_id AND s.shop_category_id = sc.shop_category_id AND s.shop_id = ? 
+2020-29-02 14:29:46;847[main]DEBUGcom.o2o.dao.ShopDao.queryByShopId - ==> Parameters: 4(Long)
+2020-29-02 14:29:46;885[main]DEBUGcom.o2o.dao.ShopDao.queryByShopId - <==      Total: 1
+2020-29-02 14:29:46;899[main]DEBUGcom.o2o.util.ImageUtil - current relativeAddr is:upload\item\shop\4\2020030214294614694.jpg
+2020-29-02 14:29:47;063[main]DEBUGcom.o2o.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_name=?, shop_desc=?, shop_img=?, last_edit_time=? where shop_id=? 
+2020-29-02 14:29:47;066[main]DEBUGcom.o2o.dao.ShopDao.updateShop - ==> Parameters: 金坷垃(String), 化肥中的战斗机(String), upload\item\shop\4\2020030214294614694.jpg(String), 2020-03-02 14:29:47.044(Timestamp), 4(Long)
+2020-29-02 14:29:47;067[main]DEBUGcom.o2o.dao.ShopDao.updateShop - <==    Updates: 1
+2020-29-02 14:29:47;068[main]DEBUGcom.o2o.dao.ShopDao.queryByShopId - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.area_id = a.area_id AND s.shop_category_id = sc.shop_category_id AND s.shop_id = ? 
+2020-29-02 14:29:47;068[main]DEBUGcom.o2o.dao.ShopDao.queryByShopId - ==> Parameters: 4(Long)
+2020-29-02 14:29:47;070[main]DEBUGcom.o2o.dao.ShopDao.queryByShopId - <==      Total: 1
+2020-57-02 16:57:55;598[main]DEBUGcom.o2o.dao.ShopDao.queryShopList - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.owner_id = ? and s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id ORDER BY s.priority DESC LIMIT ?,?; 
+2020-57-02 16:57:55;660[main]DEBUGcom.o2o.dao.ShopDao.queryShopList - ==> Parameters: 1(Long), 0(Integer), 2(Integer)
+2020-57-02 16:57:55;704[main]DEBUGcom.o2o.dao.ShopDao.queryShopList - <==      Total: 2
+2020-57-02 16:57:55;712[main]DEBUGcom.o2o.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT count(1) FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.owner_id = ? and s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id 
+2020-57-02 16:57:55;712[main]DEBUGcom.o2o.dao.ShopDao.queryShopCount - ==> Parameters: 1(Long)
+2020-57-02 16:57:55;714[main]DEBUGcom.o2o.dao.ShopDao.queryShopCount - <==      Total: 1
+2020-01-02 17:01:55;368[main]DEBUGcom.o2o.dao.ShopDao.queryShopList - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.owner_id = ? and s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id ORDER BY s.priority DESC LIMIT ?,?; 
+2020-01-02 17:01:55;424[main]DEBUGcom.o2o.dao.ShopDao.queryShopList - ==> Parameters: 1(Long), 0(Integer), 2(Integer)
+2020-01-02 17:01:55;466[main]DEBUGcom.o2o.dao.ShopDao.queryShopList - <==      Total: 2
+2020-01-02 17:01:55;474[main]DEBUGcom.o2o.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT count(1) FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.owner_id = ? and s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id 
+2020-01-02 17:01:55;474[main]DEBUGcom.o2o.dao.ShopDao.queryShopCount - ==> Parameters: 1(Long)
+2020-01-02 17:01:55;476[main]DEBUGcom.o2o.dao.ShopDao.queryShopCount - <==      Total: 1
+2020-01-02 17:01:55;478[main]DEBUGcom.o2o.dao.ShopDao.queryShopList - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id = ? and s.owner_id = ? and s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id ORDER BY s.priority DESC LIMIT ?,?; 
+2020-01-02 17:01:55;479[main]DEBUGcom.o2o.dao.ShopDao.queryShopList - ==> Parameters: 3(Long), 1(Long), 0(Integer), 3(Integer)
+2020-01-02 17:01:55;480[main]DEBUGcom.o2o.dao.ShopDao.queryShopList - <==      Total: 0
+2020-01-02 17:01:55;481[main]DEBUGcom.o2o.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT count(1) FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id = ? and s.owner_id = ? and s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id 
+2020-01-02 17:01:55;482[main]DEBUGcom.o2o.dao.ShopDao.queryShopCount - ==> Parameters: 3(Long), 1(Long)
+2020-01-02 17:01:55;483[main]DEBUGcom.o2o.dao.ShopDao.queryShopCount - <==      Total: 1
+2020-02-02 17:02:22;271[main]DEBUGcom.o2o.dao.ShopDao.queryShopList - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.owner_id = ? and s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id ORDER BY s.priority DESC LIMIT ?,?; 
+2020-02-02 17:02:22;340[main]DEBUGcom.o2o.dao.ShopDao.queryShopList - ==> Parameters: 1(Long), 0(Integer), 2(Integer)
+2020-02-02 17:02:22;397[main]DEBUGcom.o2o.dao.ShopDao.queryShopList - <==      Total: 2
+2020-02-02 17:02:22;404[main]DEBUGcom.o2o.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT count(1) FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.owner_id = ? and s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id 
+2020-02-02 17:02:22;404[main]DEBUGcom.o2o.dao.ShopDao.queryShopCount - ==> Parameters: 1(Long)
+2020-02-02 17:02:22;407[main]DEBUGcom.o2o.dao.ShopDao.queryShopCount - <==      Total: 1
+2020-02-02 17:02:22;409[main]DEBUGcom.o2o.dao.ShopDao.queryShopList - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id = ? and s.owner_id = ? and s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id ORDER BY s.priority DESC LIMIT ?,?; 
+2020-02-02 17:02:22;410[main]DEBUGcom.o2o.dao.ShopDao.queryShopList - ==> Parameters: 2(Long), 1(Long), 0(Integer), 3(Integer)
+2020-02-02 17:02:22;414[main]DEBUGcom.o2o.dao.ShopDao.queryShopList - <==      Total: 1
+2020-02-02 17:02:22;415[main]DEBUGcom.o2o.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT count(1) FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id = ? and s.owner_id = ? and s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id 
+2020-02-02 17:02:22;415[main]DEBUGcom.o2o.dao.ShopDao.queryShopCount - ==> Parameters: 2(Long), 1(Long)
+2020-02-02 17:02:22;417[main]DEBUGcom.o2o.dao.ShopDao.queryShopCount - <==      Total: 1
+2020-04-02 17:04:10;146[main]DEBUGcom.o2o.dao.ShopDao.queryShopList - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.owner_id = ? and s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id ORDER BY s.priority DESC LIMIT ?,?; 
+2020-04-02 17:04:10;207[main]DEBUGcom.o2o.dao.ShopDao.queryShopList - ==> Parameters: 1(Long), 0(Integer), 2(Integer)
+2020-04-02 17:04:10;252[main]DEBUGcom.o2o.dao.ShopDao.queryShopList - <==      Total: 2
+2020-04-02 17:04:10;261[main]DEBUGcom.o2o.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT count(1) FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.owner_id = ? and s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id 
+2020-04-02 17:04:10;261[main]DEBUGcom.o2o.dao.ShopDao.queryShopCount - ==> Parameters: 1(Long)
+2020-04-02 17:04:10;263[main]DEBUGcom.o2o.dao.ShopDao.queryShopCount - <==      Total: 1
+2020-04-02 17:04:10;265[main]DEBUGcom.o2o.dao.ShopDao.queryShopList - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id = ? and s.owner_id = ? and s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id ORDER BY s.priority DESC LIMIT ?,?; 
+2020-04-02 17:04:10;265[main]DEBUGcom.o2o.dao.ShopDao.queryShopList - ==> Parameters: 2(Long), 1(Long), 0(Integer), 3(Integer)
+2020-04-02 17:04:10;270[main]DEBUGcom.o2o.dao.ShopDao.queryShopList - <==      Total: 3
+2020-04-02 17:04:10;271[main]DEBUGcom.o2o.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT count(1) FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id = ? and s.owner_id = ? and s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id 
+2020-04-02 17:04:10;272[main]DEBUGcom.o2o.dao.ShopDao.queryShopCount - ==> Parameters: 2(Long), 1(Long)
+2020-04-02 17:04:10;273[main]DEBUGcom.o2o.dao.ShopDao.queryShopCount - <==      Total: 1
+2020-04-02 17:04:31;560[main]DEBUGcom.o2o.dao.ShopDao.queryShopList - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.owner_id = ? and s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id ORDER BY s.priority DESC LIMIT ?,?; 
+2020-04-02 17:04:31;621[main]DEBUGcom.o2o.dao.ShopDao.queryShopList - ==> Parameters: 1(Long), 0(Integer), 2(Integer)
+2020-04-02 17:04:31;667[main]DEBUGcom.o2o.dao.ShopDao.queryShopList - <==      Total: 2
+2020-04-02 17:04:31;675[main]DEBUGcom.o2o.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT count(1) FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.owner_id = ? and s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id 
+2020-04-02 17:04:31;675[main]DEBUGcom.o2o.dao.ShopDao.queryShopCount - ==> Parameters: 1(Long)
+2020-04-02 17:04:31;678[main]DEBUGcom.o2o.dao.ShopDao.queryShopCount - <==      Total: 1
+2020-04-02 17:04:31;681[main]DEBUGcom.o2o.dao.ShopDao.queryShopList - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id = ? and s.owner_id = ? and s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id ORDER BY s.priority DESC LIMIT ?,?; 
+2020-04-02 17:04:31;681[main]DEBUGcom.o2o.dao.ShopDao.queryShopList - ==> Parameters: 2(Long), 1(Long), 0(Integer), 1(Integer)
+2020-04-02 17:04:31;684[main]DEBUGcom.o2o.dao.ShopDao.queryShopList - <==      Total: 1
+2020-04-02 17:04:31;686[main]DEBUGcom.o2o.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT count(1) FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id = ? and s.owner_id = ? and s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id 
+2020-04-02 17:04:31;687[main]DEBUGcom.o2o.dao.ShopDao.queryShopCount - ==> Parameters: 2(Long), 1(Long)
+2020-04-02 17:04:31;688[main]DEBUGcom.o2o.dao.ShopDao.queryShopCount - <==      Total: 1
+2020-11-02 17:11:28;857[main]DEBUGcom.o2o.dao.ShopDao.queryShopList - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id = ? and s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id ORDER BY s.priority DESC LIMIT ?,?; 
+2020-11-02 17:11:28;917[main]DEBUGcom.o2o.dao.ShopDao.queryShopList - ==> Parameters: 1(Long), 2(Integer), 2(Integer)
+2020-11-02 17:11:29;007[main]DEBUGcom.o2o.dao.ShopDao.queryShopList - <==      Total: 2
+2020-11-02 17:11:29;016[main]DEBUGcom.o2o.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT count(1) FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id = ? and s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id 
+2020-11-02 17:11:29;016[main]DEBUGcom.o2o.dao.ShopDao.queryShopCount - ==> Parameters: 1(Long)
+2020-11-02 17:11:29;019[main]DEBUGcom.o2o.dao.ShopDao.queryShopCount - <==      Total: 1
+2020-12-02 17:12:02;026[main]DEBUGcom.o2o.dao.ShopDao.queryShopList - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id = ? and s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id ORDER BY s.priority DESC LIMIT ?,?; 
+2020-12-02 17:12:02;067[main]DEBUGcom.o2o.dao.ShopDao.queryShopList - ==> Parameters: 1(Long), 6(Integer), 3(Integer)
+2020-12-02 17:12:02;114[main]DEBUGcom.o2o.dao.ShopDao.queryShopList - <==      Total: 0
+2020-12-02 17:12:02;122[main]DEBUGcom.o2o.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT count(1) FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id = ? and s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id 
+2020-12-02 17:12:02;123[main]DEBUGcom.o2o.dao.ShopDao.queryShopCount - ==> Parameters: 1(Long)
+2020-12-02 17:12:02;126[main]DEBUGcom.o2o.dao.ShopDao.queryShopCount - <==      Total: 1
+2020-13-02 17:13:10;636[main]DEBUGcom.o2o.dao.ShopDao.queryShopList - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id = ? and s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id ORDER BY s.priority DESC LIMIT ?,?; 
+2020-13-02 17:13:10;677[main]DEBUGcom.o2o.dao.ShopDao.queryShopList - ==> Parameters: 1(Long), 0(Integer), 1(Integer)
+2020-13-02 17:13:10;722[main]DEBUGcom.o2o.dao.ShopDao.queryShopList - <==      Total: 1
+2020-13-02 17:13:10;730[main]DEBUGcom.o2o.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT count(1) FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id = ? and s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id 
+2020-13-02 17:13:10;731[main]DEBUGcom.o2o.dao.ShopDao.queryShopCount - ==> Parameters: 1(Long)
+2020-13-02 17:13:10;733[main]DEBUGcom.o2o.dao.ShopDao.queryShopCount - <==      Total: 1
+2020-41-03 12:41:46;118[main]DEBUGc.o.d.ProductCategoryDao.queryProductCategoryList - ==>  Preparing: SELECT product_category_id, product_category_name, priority, create_time, shop_id FROM tb_product_category WHERE shop_id = ? ORDER BY priority DESC 
+2020-41-03 12:41:46;227[main]DEBUGc.o.d.ProductCategoryDao.queryProductCategoryList - ==> Parameters: 1(Long)
+2020-41-03 12:41:46;265[main]DEBUGc.o.d.ProductCategoryDao.queryProductCategoryList - <==      Total: 0
+2020-41-03 12:41:57;493[main]DEBUGc.o.d.ProductCategoryDao.queryProductCategoryList - ==>  Preparing: SELECT product_category_id, product_category_name, priority, create_time, shop_id FROM tb_product_category WHERE shop_id = ? ORDER BY priority DESC 
+2020-41-03 12:41:57;554[main]DEBUGc.o.d.ProductCategoryDao.queryProductCategoryList - ==> Parameters: 6(Long)
+2020-41-03 12:41:57;590[main]DEBUGc.o.d.ProductCategoryDao.queryProductCategoryList - <==      Total: 3
+2020-45-03 12:45:30;827[main]DEBUGc.o.d.ProductCategoryDao.queryProductCategoryList - ==>  Preparing: SELECT product_category_id, product_category_name, priority, create_time, shop_id FROM tb_product_category WHERE shop_id = ? ORDER BY priority DESC 
+2020-45-03 12:45:30;905[main]DEBUGc.o.d.ProductCategoryDao.queryProductCategoryList - ==> Parameters: 6(Long)
+2020-45-03 12:45:30;960[main]DEBUGc.o.d.ProductCategoryDao.queryProductCategoryList - <==      Total: 3
+2020-30-03 13:30:32;949[main]DEBUGc.o.dao.ProductImgDao.deleteProductImgByProductId - ==>  Preparing: DELETE FROM tb_product_img WHERE product_id = ? 
+2020-30-03 13:30:33;013[main]DEBUGc.o.dao.ProductImgDao.deleteProductImgByProductId - ==> Parameters: 1(Long)
+2020-30-03 13:30:33;021[main]DEBUGc.o.dao.ProductImgDao.deleteProductImgByProductId - <==    Updates: 1
+2020-33-03 13:33:59;309[main]DEBUGcom.o2o.dao.ProductDao.insertProduct - ==>  Preparing: INSERT INTO tb_product(product_name,product_desc,img_addr, normal_price,promotion_price,priority,create_time, last_edit_time,enable_status,point,product_category_id, shop_id) VALUES (?,?,?, ?,?,?,?, ?,?,?,?, ?) 
+2020-33-03 13:33:59;397[main]DEBUGcom.o2o.dao.ProductDao.insertProduct - ==> Parameters: 半糖布雷(String), 糖度五分(String), 111(String), null, null, 1(Integer), 2020-03-03 13:33:58.877(Timestamp), 2020-03-03 13:33:58.877(Timestamp), 1(Integer), null, 21(Long), 2(Long)
+2020-35-03 13:35:09;255[main]DEBUGcom.o2o.dao.ProductDao.insertProduct - ==>  Preparing: INSERT INTO tb_product(product_name,product_desc,img_addr, normal_price,promotion_price,priority,create_time, last_edit_time,enable_status,point,product_category_id, shop_id) VALUES (?,?,?, ?,?,?,?, ?,?,?,?, ?) 
+2020-35-03 13:35:09;343[main]DEBUGcom.o2o.dao.ProductDao.insertProduct - ==> Parameters: 半糖布雷(String), 糖度五分(String), 111(String), null, null, 1(Integer), 2020-03-03 13:35:08.824(Timestamp), 2020-03-03 13:35:08.824(Timestamp), 1(Integer), 10(Integer), 21(Long), 2(Long)
+2020-35-03 13:35:09;350[main]DEBUGcom.o2o.dao.ProductDao.insertProduct - <==    Updates: 1
+2020-35-03 13:35:09;369[main]DEBUGcom.o2o.dao.ProductDao.insertProduct - ==>  Preparing: INSERT INTO tb_product(product_name,product_desc,img_addr, normal_price,promotion_price,priority,create_time, last_edit_time,enable_status,point,product_category_id, shop_id) VALUES (?,?,?, ?,?,?,?, ?,?,?,?, ?) 
+2020-35-03 13:35:09;370[main]DEBUGcom.o2o.dao.ProductDao.insertProduct - ==> Parameters: 三分糖布雷(String), 糖度三分(String), 222(String), null, null, 2(Integer), 2020-03-03 13:35:08.824(Timestamp), 2020-03-03 13:35:08.824(Timestamp), 0(Integer), 13(Integer), 21(Long), 2(Long)
+2020-35-03 13:35:09;374[main]DEBUGcom.o2o.dao.ProductDao.insertProduct - <==    Updates: 1
+2020-35-03 13:35:09;375[main]DEBUGcom.o2o.dao.ProductDao.insertProduct - ==>  Preparing: INSERT INTO tb_product(product_name,product_desc,img_addr, normal_price,promotion_price,priority,create_time, last_edit_time,enable_status,point,product_category_id, shop_id) VALUES (?,?,?, ?,?,?,?, ?,?,?,?, ?) 
+2020-35-03 13:35:09;377[main]DEBUGcom.o2o.dao.ProductDao.insertProduct - ==> Parameters: 全糖布雷(String), 糖度十分(String), 333(String), null, null, 3(Integer), 2020-03-03 13:35:08.824(Timestamp), 2020-03-03 13:35:08.824(Timestamp), 3(Integer), 12(Integer), 21(Long), 2(Long)
+2020-35-03 13:35:09;381[main]DEBUGcom.o2o.dao.ProductDao.insertProduct - <==    Updates: 1
+2020-41-03 13:41:07;963[main]DEBUGcom.o2o.dao.ProductImgDao.batchInsertProductImg - ==>  Preparing: INSERT INTO tb_product_img(img_addr,img_desc,priority, create_time,product_id) VALUES ( ?, ?, ?, ?, ? ) , ( ?, ?, ?, ?, ? ) 
+2020-41-03 13:41:08;032[main]DEBUGcom.o2o.dao.ProductImgDao.batchInsertProductImg - ==> Parameters: 图片1(String), 测试图片1(String), 1(Integer), 2020-03-03 13:41:07.493(Timestamp), 1(Long), 图片2(String), null, 1(Integer), 2020-03-03 13:41:07.493(Timestamp), 1(Long)
+2020-41-03 13:41:08;038[main]DEBUGcom.o2o.dao.ProductImgDao.batchInsertProductImg - <==    Updates: 2
+2020-41-03 13:41:08;047[main]DEBUGcom.o2o.dao.ProductImgDao.queryProductImgList - ==>  Preparing: SELECT product_img_id, img_addr, img_desc, priority, create_time, product_id FROM tb_product_img WHERE product_id=? ORDER BY product_img_id ASC 
+2020-41-03 13:41:08;047[main]DEBUGcom.o2o.dao.ProductImgDao.queryProductImgList - ==> Parameters: 1(Long)
+2020-41-03 13:41:08;080[main]DEBUGcom.o2o.dao.ProductImgDao.queryProductImgList - <==      Total: 2
+2020-41-03 13:41:08;088[main]DEBUGc.o.dao.ProductImgDao.deleteProductImgByProductId - ==>  Preparing: DELETE FROM tb_product_img WHERE product_id = ? 
+2020-41-03 13:41:08;088[main]DEBUGc.o.dao.ProductImgDao.deleteProductImgByProductId - ==> Parameters: 1(Long)
+2020-41-03 13:41:08;092[main]DEBUGc.o.dao.ProductImgDao.deleteProductImgByProductId - <==    Updates: 2
+2020-56-03 13:56:05;420[main]DEBUGcom.o2o.dao.ProductDao.updateProduct - ==>  Preparing: UPDATE tb_product SET product_name=?, product_category_id=? WHERE product_id = ? AND shop_id=? 
+2020-56-03 13:56:05;503[main]DEBUGcom.o2o.dao.ProductDao.updateProduct - ==> Parameters: 第二个产品(String), 2(Long), 1(Long), 1(Long)
+2020-56-03 13:56:05;508[main]DEBUGcom.o2o.dao.ProductDao.updateProduct - <==    Updates: 0
+2020-56-03 13:56:05;545[main]DEBUGcom.o2o.dao.ProductDao.updateProductCategoryToNull - ==>  Preparing: UPDATE tb_product SET product_category_id = null WHERE product_category_id = ? 
+2020-56-03 13:56:05;545[main]DEBUGcom.o2o.dao.ProductDao.updateProductCategoryToNull - ==> Parameters: 2(Long)
+2020-56-03 13:56:05;547[main]DEBUGcom.o2o.dao.ProductDao.updateProductCategoryToNull - <==    Updates: 0
+2020-56-03 13:56:05;560[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==>  Preparing: SELECT product_id, product_name, product_desc, img_addr, normal_price, promotion_price, priority, create_time, last_edit_time, enable_status, point, product_category_id, shop_id FROM tb_product WHERE product_category_id = ? ORDER BY priority DESC LIMIT ?,?; 
+2020-56-03 13:56:05;560[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==> Parameters: 1(Long), 0(Integer), 3(Integer)
+2020-56-03 13:56:05;577[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - <==      Total: 0
+2020-56-03 13:56:15;661[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==>  Preparing: SELECT product_id, product_name, product_desc, img_addr, normal_price, promotion_price, priority, create_time, last_edit_time, enable_status, point, product_category_id, shop_id FROM tb_product ORDER BY priority DESC LIMIT ?,?; 
+2020-56-03 13:56:15;729[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==> Parameters: 0(Integer), 3(Integer)
+2020-56-03 13:56:15;774[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - <==      Total: 3
+2020-56-03 13:56:15;781[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - ==>  Preparing: SELECT count(1) FROM tb_product 
+2020-56-03 13:56:15;782[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - ==> Parameters: 
+2020-56-03 13:56:15;786[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - <==      Total: 1
+2020-56-03 13:56:15;797[main]DEBUGcom.o2o.dao.ProductDao.updateProduct - ==>  Preparing: UPDATE tb_product SET product_name=?, product_category_id=? WHERE product_id = ? AND shop_id=? 
+2020-56-03 13:56:15;802[main]DEBUGcom.o2o.dao.ProductDao.updateProduct - ==> Parameters: 第二个产品(String), 2(Long), 1(Long), 1(Long)
+2020-56-03 13:56:15;803[main]DEBUGcom.o2o.dao.ProductDao.updateProduct - <==    Updates: 0
+2020-56-03 13:56:15;808[main]DEBUGcom.o2o.dao.ProductDao.updateProductCategoryToNull - ==>  Preparing: UPDATE tb_product SET product_category_id = null WHERE product_category_id = ? 
+2020-56-03 13:56:15;808[main]DEBUGcom.o2o.dao.ProductDao.updateProductCategoryToNull - ==> Parameters: 2(Long)
+2020-56-03 13:56:15;809[main]DEBUGcom.o2o.dao.ProductDao.updateProductCategoryToNull - <==    Updates: 0
+2020-56-03 13:56:15;817[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==>  Preparing: SELECT product_id, product_name, product_desc, img_addr, normal_price, promotion_price, priority, create_time, last_edit_time, enable_status, point, product_category_id, shop_id FROM tb_product WHERE product_category_id = ? ORDER BY priority DESC LIMIT ?,?; 
+2020-56-03 13:56:15;819[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==> Parameters: 1(Long), 0(Integer), 3(Integer)
+2020-56-03 13:56:15;819[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - <==      Total: 0
+2020-56-03 13:56:29;770[main]DEBUGcom.o2o.dao.ProductDao.insertProduct - ==>  Preparing: INSERT INTO tb_product(product_name,product_desc,img_addr, normal_price,promotion_price,priority,create_time, last_edit_time,enable_status,point,product_category_id, shop_id) VALUES (?,?,?, ?,?,?,?, ?,?,?,?, ?) 
+2020-56-03 13:56:29;848[main]DEBUGcom.o2o.dao.ProductDao.insertProduct - ==> Parameters: 测试1(String), 测试Desc1(String), test1(String), null, null, 1(Integer), 2020-03-03 13:56:29.331(Timestamp), 2020-03-03 13:56:29.331(Timestamp), 1(Integer), null, 1(Long), 1(Long)
+2020-56-03 13:56:29;961[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==>  Preparing: SELECT product_id, product_name, product_desc, img_addr, normal_price, promotion_price, priority, create_time, last_edit_time, enable_status, point, product_category_id, shop_id FROM tb_product ORDER BY priority DESC LIMIT ?,?; 
+2020-56-03 13:56:29;962[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==> Parameters: 0(Integer), 3(Integer)
+2020-56-03 13:56:30;017[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - <==      Total: 3
+2020-56-03 13:56:30;019[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - ==>  Preparing: SELECT count(1) FROM tb_product 
+2020-56-03 13:56:30;019[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - ==> Parameters: 
+2020-56-03 13:56:30;021[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - <==      Total: 1
+2020-56-03 13:56:30;028[main]DEBUGcom.o2o.dao.ProductDao.updateProduct - ==>  Preparing: UPDATE tb_product SET product_name=?, product_category_id=? WHERE product_id = ? AND shop_id=? 
+2020-56-03 13:56:30;029[main]DEBUGcom.o2o.dao.ProductDao.updateProduct - ==> Parameters: 第二个产品(String), 2(Long), 1(Long), 1(Long)
+2020-56-03 13:56:30;030[main]DEBUGcom.o2o.dao.ProductDao.updateProduct - <==    Updates: 0
+2020-56-03 13:56:30;036[main]DEBUGcom.o2o.dao.ProductDao.updateProductCategoryToNull - ==>  Preparing: UPDATE tb_product SET product_category_id = null WHERE product_category_id = ? 
+2020-56-03 13:56:30;036[main]DEBUGcom.o2o.dao.ProductDao.updateProductCategoryToNull - ==> Parameters: 2(Long)
+2020-56-03 13:56:30;038[main]DEBUGcom.o2o.dao.ProductDao.updateProductCategoryToNull - <==    Updates: 0
+2020-56-03 13:56:30;044[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==>  Preparing: SELECT product_id, product_name, product_desc, img_addr, normal_price, promotion_price, priority, create_time, last_edit_time, enable_status, point, product_category_id, shop_id FROM tb_product WHERE product_category_id = ? ORDER BY priority DESC LIMIT ?,?; 
+2020-56-03 13:56:30;044[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==> Parameters: 1(Long), 0(Integer), 3(Integer)
+2020-56-03 13:56:30;046[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - <==      Total: 0
+2020-56-03 13:56:56;241[main]DEBUGcom.o2o.dao.ProductDao.insertProduct - ==>  Preparing: INSERT INTO tb_product(product_name,product_desc,img_addr, normal_price,promotion_price,priority,create_time, last_edit_time,enable_status,point,product_category_id, shop_id) VALUES (?,?,?, ?,?,?,?, ?,?,?,?, ?) 
+2020-56-03 13:56:56;319[main]DEBUGcom.o2o.dao.ProductDao.insertProduct - ==> Parameters: 测试1(String), 测试Desc1(String), test1(String), null, null, 1(Integer), 2020-03-03 13:56:55.802(Timestamp), 2020-03-03 13:56:55.802(Timestamp), 1(Integer), null, 1(Long), 1(Long)
+2020-56-03 13:56:56;435[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==>  Preparing: SELECT product_id, product_name, product_desc, img_addr, normal_price, promotion_price, priority, create_time, last_edit_time, enable_status, point, product_category_id, shop_id FROM tb_product ORDER BY priority DESC LIMIT ?,?; 
+2020-56-03 13:56:56;435[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==> Parameters: 0(Integer), 3(Integer)
+2020-56-03 13:56:56;473[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - <==      Total: 3
+2020-56-03 13:56:56;475[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - ==>  Preparing: SELECT count(1) FROM tb_product 
+2020-56-03 13:56:56;476[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - ==> Parameters: 
+2020-56-03 13:56:56;478[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - <==      Total: 1
+2020-56-03 13:56:56;484[main]DEBUGcom.o2o.dao.ProductImgDao.batchInsertProductImg - ==>  Preparing: INSERT INTO tb_product_img(img_addr,img_desc,priority, create_time,product_id) VALUES ( ?, ?, ?, ?, ? ) , ( ?, ?, ?, ?, ? ) 
+2020-56-03 13:56:56;487[main]DEBUGcom.o2o.dao.ProductImgDao.batchInsertProductImg - ==> Parameters: 图片1(String), 测试图片1(String), 1(Integer), 2020-03-03 13:56:56.481(Timestamp), 1(Long), 图片2(String), null, 1(Integer), 2020-03-03 13:56:56.481(Timestamp), 1(Long)
+2020-56-03 13:56:56;493[main]DEBUGcom.o2o.dao.ProductImgDao.batchInsertProductImg - <==    Updates: 2
+2020-56-03 13:56:56;495[main]DEBUGcom.o2o.dao.ProductDao.queryProductById - ==>  Preparing: SELECT p.product_id, p.product_name, p.product_desc, p.img_addr, p.normal_price, p.promotion_price, p.priority, p.create_time, p.last_edit_time, p.enable_status, p.point, p.product_category_id, p.shop_id, pm.product_img_id, pm.img_addr AS detail_img, pm.img_desc, pm.priority, pm.create_time FROM tb_product p LEFT JOIN tb_product_img pm ON p.product_id = pm.product_id WHERE p.product_id = ? ORDER BY pm.priority DESC 
+2020-56-03 13:56:56;496[main]DEBUGcom.o2o.dao.ProductDao.queryProductById - ==> Parameters: 1(Long)
+2020-56-03 13:56:56;503[main]DEBUGcom.o2o.dao.ProductDao.queryProductById - <==      Total: 2
+2020-56-03 13:56:56;504[main]DEBUGc.o.dao.ProductImgDao.deleteProductImgByProductId - ==>  Preparing: DELETE FROM tb_product_img WHERE product_id = ? 
+2020-56-03 13:56:56;504[main]DEBUGc.o.dao.ProductImgDao.deleteProductImgByProductId - ==> Parameters: 1(Long)
+2020-56-03 13:56:56;508[main]DEBUGc.o.dao.ProductImgDao.deleteProductImgByProductId - <==    Updates: 2
+2020-56-03 13:56:56;515[main]DEBUGcom.o2o.dao.ProductDao.updateProduct - ==>  Preparing: UPDATE tb_product SET product_name=?, product_category_id=? WHERE product_id = ? AND shop_id=? 
+2020-56-03 13:56:56;515[main]DEBUGcom.o2o.dao.ProductDao.updateProduct - ==> Parameters: 第二个产品(String), 2(Long), 1(Long), 1(Long)
+2020-56-03 13:56:56;516[main]DEBUGcom.o2o.dao.ProductDao.updateProduct - <==    Updates: 0
+2020-56-03 13:56:56;522[main]DEBUGcom.o2o.dao.ProductDao.updateProductCategoryToNull - ==>  Preparing: UPDATE tb_product SET product_category_id = null WHERE product_category_id = ? 
+2020-56-03 13:56:56;522[main]DEBUGcom.o2o.dao.ProductDao.updateProductCategoryToNull - ==> Parameters: 2(Long)
+2020-56-03 13:56:56;524[main]DEBUGcom.o2o.dao.ProductDao.updateProductCategoryToNull - <==    Updates: 0
+2020-56-03 13:56:56;531[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==>  Preparing: SELECT product_id, product_name, product_desc, img_addr, normal_price, promotion_price, priority, create_time, last_edit_time, enable_status, point, product_category_id, shop_id FROM tb_product WHERE product_category_id = ? ORDER BY priority DESC LIMIT ?,?; 
+2020-56-03 13:56:56;531[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==> Parameters: 1(Long), 0(Integer), 3(Integer)
+2020-56-03 13:56:56;533[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - <==      Total: 0
+2020-02-03 14:02:48;105[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==>  Preparing: SELECT product_id, product_name, product_desc, img_addr, normal_price, promotion_price, priority, create_time, last_edit_time, enable_status, point, product_category_id, shop_id FROM tb_product ORDER BY priority DESC LIMIT ?,?; 
+2020-02-03 14:02:48;162[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==> Parameters: 0(Integer), 3(Integer)
+2020-02-03 14:02:48;202[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - <==      Total: 3
+2020-02-03 14:02:48;209[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - ==>  Preparing: SELECT count(1) FROM tb_product 
+2020-02-03 14:02:48;209[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - ==> Parameters: 
+2020-02-03 14:02:48;211[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - <==      Total: 1
+2020-02-03 14:02:48;215[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==>  Preparing: SELECT product_id, product_name, product_desc, img_addr, normal_price, promotion_price, priority, create_time, last_edit_time, enable_status, point, product_category_id, shop_id FROM tb_product WHERE product_name like '%布雷%' ORDER BY priority DESC LIMIT ?,?; 
+2020-02-03 14:02:48;215[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==> Parameters: 0(Integer), 4(Integer)
+2020-02-03 14:02:48;219[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - <==      Total: 3
+2020-02-03 14:02:48;220[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - ==>  Preparing: SELECT count(1) FROM tb_product WHERE product_name like '%布雷%' 
+2020-02-03 14:02:48;220[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - ==> Parameters: 
+2020-02-03 14:02:48;221[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - <==      Total: 1
+2020-05-03 14:05:59;782[main]DEBUGcom.o2o.dao.ProductImgDao.batchInsertProductImg - ==>  Preparing: INSERT INTO tb_product_img(img_addr,img_desc,priority, create_time,product_id) VALUES ( ?, ?, ?, ?, ? ) , ( ?, ?, ?, ?, ? ) 
+2020-05-03 14:05:59;850[main]DEBUGcom.o2o.dao.ProductImgDao.batchInsertProductImg - ==> Parameters: 图片1(String), 测试图片1(String), 1(Integer), 2020-03-03 14:05:59.324(Timestamp), 2(Long), 图片2(String), null, 1(Integer), 2020-03-03 14:05:59.324(Timestamp), 2(Long)
+2020-05-03 14:05:59;860[main]DEBUGcom.o2o.dao.ProductImgDao.batchInsertProductImg - <==    Updates: 2
+2020-05-03 14:05:59;866[main]DEBUGcom.o2o.dao.ProductDao.queryProductById - ==>  Preparing: SELECT p.product_id, p.product_name, p.product_desc, p.img_addr, p.normal_price, p.promotion_price, p.priority, p.create_time, p.last_edit_time, p.enable_status, p.point, p.product_category_id, p.shop_id, pm.product_img_id, pm.img_addr AS detail_img, pm.img_desc, pm.priority, pm.create_time FROM tb_product p LEFT JOIN tb_product_img pm ON p.product_id = pm.product_id WHERE p.product_id = ? ORDER BY pm.priority DESC 
+2020-05-03 14:05:59;867[main]DEBUGcom.o2o.dao.ProductDao.queryProductById - ==> Parameters: 2(Long)
+2020-05-03 14:05:59;904[main]DEBUGcom.o2o.dao.ProductDao.queryProductById - <==      Total: 2
+2020-05-03 14:05:59;910[main]DEBUGc.o.dao.ProductImgDao.deleteProductImgByProductId - ==>  Preparing: DELETE FROM tb_product_img WHERE product_id = ? 
+2020-05-03 14:05:59;910[main]DEBUGc.o.dao.ProductImgDao.deleteProductImgByProductId - ==> Parameters: 2(Long)
+2020-05-03 14:05:59;915[main]DEBUGc.o.dao.ProductImgDao.deleteProductImgByProductId - <==    Updates: 2
+2020-08-03 14:08:39;310[main]DEBUGcom.o2o.dao.ProductDao.updateProduct - ==>  Preparing: UPDATE tb_product SET product_name=?, product_category_id=? WHERE product_id = ? AND shop_id=? 
+2020-08-03 14:08:39;374[main]DEBUGcom.o2o.dao.ProductDao.updateProduct - ==> Parameters: 五分糖布雷(String), 27(Long), 2(Long), 2(Long)
+2020-08-03 14:08:39;380[main]DEBUGcom.o2o.dao.ProductDao.updateProduct - <==    Updates: 1
+2020-11-03 14:11:07;914[main]DEBUGcom.o2o.dao.ProductDao.updateProductCategoryToNull - ==>  Preparing: UPDATE tb_product SET product_category_id = null WHERE product_category_id = ? 
+2020-11-03 14:11:07;971[main]DEBUGcom.o2o.dao.ProductDao.updateProductCategoryToNull - ==> Parameters: 21(Long)
+2020-11-03 14:11:07;979[main]DEBUGcom.o2o.dao.ProductDao.updateProductCategoryToNull - <==    Updates: 2
+2020-11-03 14:11:29;962[main]DEBUGcom.o2o.dao.ProductDao.updateProductCategoryToNull - ==>  Preparing: UPDATE tb_product SET product_category_id = null WHERE product_category_id = ? 
+2020-11-03 14:11:30;020[main]DEBUGcom.o2o.dao.ProductDao.updateProductCategoryToNull - ==> Parameters: 21(Long)
+2020-11-03 14:11:30;022[main]DEBUGcom.o2o.dao.ProductDao.updateProductCategoryToNull - <==    Updates: 0
+2020-15-03 14:15:46;846[main]DEBUGcom.o2o.dao.ProductDao.insertProduct - ==>  Preparing: INSERT INTO tb_product(product_name,product_desc,img_addr, normal_price,promotion_price,priority,create_time, last_edit_time,enable_status,point,product_category_id, shop_id) VALUES (?,?,?, ?,?,?,?, ?,?,?,?, ?) 
+2020-15-03 14:15:46;914[main]DEBUGcom.o2o.dao.ProductDao.insertProduct - ==> Parameters: 半糖布雷(String), 糖度五分(String), 111(String), null, null, 1(Integer), 2020-03-03 14:15:46.401(Timestamp), 2020-03-03 14:15:46.401(Timestamp), 1(Integer), 10(Integer), 21(Long), 2(Long)
+2020-15-03 14:15:46;921[main]DEBUGcom.o2o.dao.ProductDao.insertProduct - <==    Updates: 1
+2020-15-03 14:15:46;938[main]DEBUGcom.o2o.dao.ProductDao.insertProduct - ==>  Preparing: INSERT INTO tb_product(product_name,product_desc,img_addr, normal_price,promotion_price,priority,create_time, last_edit_time,enable_status,point,product_category_id, shop_id) VALUES (?,?,?, ?,?,?,?, ?,?,?,?, ?) 
+2020-15-03 14:15:46;939[main]DEBUGcom.o2o.dao.ProductDao.insertProduct - ==> Parameters: 三分糖布雷(String), 糖度三分(String), 222(String), null, null, 2(Integer), 2020-03-03 14:15:46.402(Timestamp), 2020-03-03 14:15:46.402(Timestamp), 0(Integer), 13(Integer), 21(Long), 2(Long)
+2020-15-03 14:15:46;943[main]DEBUGcom.o2o.dao.ProductDao.insertProduct - <==    Updates: 1
+2020-15-03 14:15:46;944[main]DEBUGcom.o2o.dao.ProductDao.insertProduct - ==>  Preparing: INSERT INTO tb_product(product_name,product_desc,img_addr, normal_price,promotion_price,priority,create_time, last_edit_time,enable_status,point,product_category_id, shop_id) VALUES (?,?,?, ?,?,?,?, ?,?,?,?, ?) 
+2020-15-03 14:15:46;945[main]DEBUGcom.o2o.dao.ProductDao.insertProduct - ==> Parameters: 全糖布雷(String), 糖度十分(String), 333(String), null, null, 3(Integer), 2020-03-03 14:15:46.402(Timestamp), 2020-03-03 14:15:46.402(Timestamp), 3(Integer), 12(Integer), 21(Long), 2(Long)
+2020-15-03 14:15:46;948[main]DEBUGcom.o2o.dao.ProductDao.insertProduct - <==    Updates: 1
+2020-15-03 14:15:46;984[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==>  Preparing: SELECT product_id, product_name, product_desc, img_addr, normal_price, promotion_price, priority, create_time, last_edit_time, enable_status, point, product_category_id, shop_id FROM tb_product ORDER BY priority DESC LIMIT ?,?; 
+2020-15-03 14:15:46;985[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==> Parameters: 0(Integer), 3(Integer)
+2020-15-03 14:15:47;003[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - <==      Total: 3
+2020-15-03 14:15:47;010[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - ==>  Preparing: SELECT count(1) FROM tb_product 
+2020-15-03 14:15:47;010[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - ==> Parameters: 
+2020-15-03 14:15:47;012[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - <==      Total: 1
+2020-15-03 14:15:47;022[main]DEBUGcom.o2o.dao.ProductImgDao.batchInsertProductImg - ==>  Preparing: INSERT INTO tb_product_img(img_addr,img_desc,priority, create_time,product_id) VALUES ( ?, ?, ?, ?, ? ) , ( ?, ?, ?, ?, ? ) 
+2020-15-03 14:15:47;023[main]DEBUGcom.o2o.dao.ProductImgDao.batchInsertProductImg - ==> Parameters: 图片1(String), 测试图片1(String), 1(Integer), 2020-03-03 14:15:47.019(Timestamp), 2(Long), 图片2(String), null, 1(Integer), 2020-03-03 14:15:47.019(Timestamp), 2(Long)
+2020-15-03 14:15:47;028[main]DEBUGcom.o2o.dao.ProductImgDao.batchInsertProductImg - <==    Updates: 2
+2020-15-03 14:15:47;029[main]DEBUGcom.o2o.dao.ProductDao.queryProductById - ==>  Preparing: SELECT p.product_id, p.product_name, p.product_desc, p.img_addr, p.normal_price, p.promotion_price, p.priority, p.create_time, p.last_edit_time, p.enable_status, p.point, p.product_category_id, p.shop_id, pm.product_img_id, pm.img_addr AS detail_img, pm.img_desc, pm.priority, pm.create_time FROM tb_product p LEFT JOIN tb_product_img pm ON p.product_id = pm.product_id WHERE p.product_id = ? ORDER BY pm.priority DESC 
+2020-15-03 14:15:47;030[main]DEBUGcom.o2o.dao.ProductDao.queryProductById - ==> Parameters: 2(Long)
+2020-15-03 14:15:47;035[main]DEBUGcom.o2o.dao.ProductDao.queryProductById - <==      Total: 2
+2020-15-03 14:15:47;037[main]DEBUGc.o.dao.ProductImgDao.deleteProductImgByProductId - ==>  Preparing: DELETE FROM tb_product_img WHERE product_id = ? 
+2020-15-03 14:15:47;037[main]DEBUGc.o.dao.ProductImgDao.deleteProductImgByProductId - ==> Parameters: 2(Long)
+2020-15-03 14:15:47;041[main]DEBUGc.o.dao.ProductImgDao.deleteProductImgByProductId - <==    Updates: 2
+2020-15-03 14:15:47;047[main]DEBUGcom.o2o.dao.ProductDao.updateProduct - ==>  Preparing: UPDATE tb_product SET product_name=?, product_category_id=? WHERE product_id = ? AND shop_id=? 
+2020-15-03 14:15:47;048[main]DEBUGcom.o2o.dao.ProductDao.updateProduct - ==> Parameters: 五分糖布雷(String), 27(Long), 2(Long), 2(Long)
+2020-15-03 14:15:47;049[main]DEBUGcom.o2o.dao.ProductDao.updateProduct - <==    Updates: 1
+2020-15-03 14:15:47;052[main]DEBUGcom.o2o.dao.ProductDao.updateProductCategoryToNull - ==>  Preparing: UPDATE tb_product SET product_category_id = null WHERE product_category_id = ? 
+2020-15-03 14:15:47;052[main]DEBUGcom.o2o.dao.ProductDao.updateProductCategoryToNull - ==> Parameters: 21(Long)
+2020-15-03 14:15:47;056[main]DEBUGcom.o2o.dao.ProductDao.updateProductCategoryToNull - <==    Updates: 3
+2020-15-03 14:15:47;064[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==>  Preparing: SELECT product_id, product_name, product_desc, img_addr, normal_price, promotion_price, priority, create_time, last_edit_time, enable_status, point, product_category_id, shop_id FROM tb_product WHERE product_category_id = ? ORDER BY priority DESC LIMIT ?,?; 
+2020-15-03 14:15:47;064[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==> Parameters: 21(Long), 0(Integer), 3(Integer)
+2020-15-03 14:15:47;065[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - <==      Total: 0
+2020-18-03 14:18:34;507[main]DEBUGcom.o2o.dao.ProductDao.insertProduct - ==>  Preparing: INSERT INTO tb_product(product_name,product_desc,img_addr, normal_price,promotion_price,priority,create_time, last_edit_time,enable_status,point,product_category_id, shop_id) VALUES (?,?,?, ?,?,?,?, ?,?,?,?, ?) 
+2020-18-03 14:18:34;577[main]DEBUGcom.o2o.dao.ProductDao.insertProduct - ==> Parameters: 半糖布雷(String), 糖度五分(String), 111(String), null, null, 1(Integer), 2020-03-03 14:18:34.058(Timestamp), 2020-03-03 14:18:34.058(Timestamp), 1(Integer), 10(Integer), 21(Long), 2(Long)
+2020-18-03 14:18:34;583[main]DEBUGcom.o2o.dao.ProductDao.insertProduct - <==    Updates: 1
+2020-18-03 14:18:34;604[main]DEBUGcom.o2o.dao.ProductDao.insertProduct - ==>  Preparing: INSERT INTO tb_product(product_name,product_desc,img_addr, normal_price,promotion_price,priority,create_time, last_edit_time,enable_status,point,product_category_id, shop_id) VALUES (?,?,?, ?,?,?,?, ?,?,?,?, ?) 
+2020-18-03 14:18:34;605[main]DEBUGcom.o2o.dao.ProductDao.insertProduct - ==> Parameters: 三分糖布雷(String), 糖度三分(String), 222(String), null, null, 2(Integer), 2020-03-03 14:18:34.058(Timestamp), 2020-03-03 14:18:34.058(Timestamp), 0(Integer), 13(Integer), 21(Long), 2(Long)
+2020-18-03 14:18:34;609[main]DEBUGcom.o2o.dao.ProductDao.insertProduct - <==    Updates: 1
+2020-18-03 14:18:34;610[main]DEBUGcom.o2o.dao.ProductDao.insertProduct - ==>  Preparing: INSERT INTO tb_product(product_name,product_desc,img_addr, normal_price,promotion_price,priority,create_time, last_edit_time,enable_status,point,product_category_id, shop_id) VALUES (?,?,?, ?,?,?,?, ?,?,?,?, ?) 
+2020-18-03 14:18:34;611[main]DEBUGcom.o2o.dao.ProductDao.insertProduct - ==> Parameters: 全糖布雷(String), 糖度十分(String), 333(String), null, null, 3(Integer), 2020-03-03 14:18:34.058(Timestamp), 2020-03-03 14:18:34.058(Timestamp), 3(Integer), 12(Integer), 21(Long), 2(Long)
+2020-18-03 14:18:34;614[main]DEBUGcom.o2o.dao.ProductDao.insertProduct - <==    Updates: 1
+2020-18-03 14:18:34;647[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==>  Preparing: SELECT product_id, product_name, product_desc, img_addr, normal_price, promotion_price, priority, create_time, last_edit_time, enable_status, point, product_category_id, shop_id FROM tb_product ORDER BY priority DESC LIMIT ?,?; 
+2020-18-03 14:18:34;647[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==> Parameters: 0(Integer), 3(Integer)
+2020-18-03 14:18:34;665[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - <==      Total: 3
+2020-18-03 14:18:34;672[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - ==>  Preparing: SELECT count(1) FROM tb_product 
+2020-18-03 14:18:34;672[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - ==> Parameters: 
+2020-18-03 14:18:34;675[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - <==      Total: 1
+2020-18-03 14:18:34;680[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==>  Preparing: SELECT product_id, product_name, product_desc, img_addr, normal_price, promotion_price, priority, create_time, last_edit_time, enable_status, point, product_category_id, shop_id FROM tb_product WHERE product_name like '%布雷%' ORDER BY priority DESC LIMIT ?,?; 
+2020-18-03 14:18:34;680[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==> Parameters: 0(Integer), 4(Integer)
+2020-18-03 14:18:34;684[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - <==      Total: 4
+2020-18-03 14:18:34;697[main]DEBUGcom.o2o.dao.ProductImgDao.batchInsertProductImg - ==>  Preparing: INSERT INTO tb_product_img(img_addr,img_desc,priority, create_time,product_id) VALUES ( ?, ?, ?, ?, ? ) , ( ?, ?, ?, ?, ? ) 
+2020-18-03 14:18:34;697[main]DEBUGcom.o2o.dao.ProductImgDao.batchInsertProductImg - ==> Parameters: 图片1(String), 测试图片1(String), 1(Integer), 2020-03-03 14:18:34.694(Timestamp), 2(Long), 图片2(String), null, 1(Integer), 2020-03-03 14:18:34.694(Timestamp), 2(Long)
+2020-18-03 14:18:34;701[main]DEBUGcom.o2o.dao.ProductImgDao.batchInsertProductImg - <==    Updates: 2
+2020-18-03 14:18:34;703[main]DEBUGcom.o2o.dao.ProductDao.queryProductById - ==>  Preparing: SELECT p.product_id, p.product_name, p.product_desc, p.img_addr, p.normal_price, p.promotion_price, p.priority, p.create_time, p.last_edit_time, p.enable_status, p.point, p.product_category_id, p.shop_id, pm.product_img_id, pm.img_addr AS detail_img, pm.img_desc, pm.priority, pm.create_time FROM tb_product p LEFT JOIN tb_product_img pm ON p.product_id = pm.product_id WHERE p.product_id = ? ORDER BY pm.priority DESC 
+2020-18-03 14:18:34;703[main]DEBUGcom.o2o.dao.ProductDao.queryProductById - ==> Parameters: 2(Long)
+2020-18-03 14:18:34;708[main]DEBUGcom.o2o.dao.ProductDao.queryProductById - <==      Total: 2
+2020-18-03 14:18:34;709[main]DEBUGc.o.dao.ProductImgDao.deleteProductImgByProductId - ==>  Preparing: DELETE FROM tb_product_img WHERE product_id = ? 
+2020-18-03 14:18:34;709[main]DEBUGc.o.dao.ProductImgDao.deleteProductImgByProductId - ==> Parameters: 2(Long)
+2020-18-03 14:18:34;713[main]DEBUGc.o.dao.ProductImgDao.deleteProductImgByProductId - <==    Updates: 2
+2020-18-03 14:18:34;719[main]DEBUGcom.o2o.dao.ProductDao.updateProduct - ==>  Preparing: UPDATE tb_product SET product_name=?, product_category_id=? WHERE product_id = ? AND shop_id=? 
+2020-18-03 14:18:34;719[main]DEBUGcom.o2o.dao.ProductDao.updateProduct - ==> Parameters: 五分糖布雷(String), 27(Long), 2(Long), 2(Long)
+2020-18-03 14:18:34;721[main]DEBUGcom.o2o.dao.ProductDao.updateProduct - <==    Updates: 1
+2020-18-03 14:18:34;724[main]DEBUGcom.o2o.dao.ProductDao.updateProductCategoryToNull - ==>  Preparing: UPDATE tb_product SET product_category_id = null WHERE product_category_id = ? 
+2020-18-03 14:18:34;724[main]DEBUGcom.o2o.dao.ProductDao.updateProductCategoryToNull - ==> Parameters: 27(Long)
+2020-18-03 14:18:34;729[main]DEBUGcom.o2o.dao.ProductDao.updateProductCategoryToNull - <==    Updates: 2
+2020-18-03 14:18:34;736[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==>  Preparing: SELECT product_id, product_name, product_desc, img_addr, normal_price, promotion_price, priority, create_time, last_edit_time, enable_status, point, product_category_id, shop_id FROM tb_product WHERE product_category_id = ? ORDER BY priority DESC LIMIT ?,?; 
+2020-18-03 14:18:34;738[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==> Parameters: 21(Long), 0(Integer), 3(Integer)
+2020-18-03 14:18:34;740[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - <==      Total: 3
+2020-18-03 14:18:34;741[main]DEBUGcom.o2o.dao.ProductDao.deleteProduct - ==>  Preparing: DELETE FROM tb_product WHERE product_id = ? AND shop_id=? 
+2020-18-03 14:18:34;741[main]DEBUGcom.o2o.dao.ProductDao.deleteProduct - ==> Parameters: 10(Long), 2(Long)
+2020-18-03 14:18:34;745[main]DEBUGcom.o2o.dao.ProductDao.deleteProduct - <==    Updates: 1
+2020-18-03 14:18:34;745[main]DEBUGcom.o2o.dao.ProductDao.deleteProduct - ==>  Preparing: DELETE FROM tb_product WHERE product_id = ? AND shop_id=? 
+2020-18-03 14:18:34;746[main]DEBUGcom.o2o.dao.ProductDao.deleteProduct - ==> Parameters: 9(Long), 2(Long)
+2020-18-03 14:18:34;749[main]DEBUGcom.o2o.dao.ProductDao.deleteProduct - <==    Updates: 1
+2020-18-03 14:18:34;750[main]DEBUGcom.o2o.dao.ProductDao.deleteProduct - ==>  Preparing: DELETE FROM tb_product WHERE product_id = ? AND shop_id=? 
+2020-18-03 14:18:34;751[main]DEBUGcom.o2o.dao.ProductDao.deleteProduct - ==> Parameters: 8(Long), 2(Long)
+2020-18-03 14:18:34;755[main]DEBUGcom.o2o.dao.ProductDao.deleteProduct - <==    Updates: 1
+2020-20-03 14:20:18;704[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==>  Preparing: SELECT product_id, product_name, product_desc, img_addr, normal_price, promotion_price, priority, create_time, last_edit_time, enable_status, point, product_category_id, shop_id FROM tb_product ORDER BY priority DESC LIMIT ?,?; 
+2020-20-03 14:20:18;760[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==> Parameters: 0(Integer), 3(Integer)
+2020-20-03 14:20:18;798[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - <==      Total: 3
+2020-20-03 14:20:18;805[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - ==>  Preparing: SELECT count(1) FROM tb_product 
+2020-20-03 14:20:18;805[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - ==> Parameters: 
+2020-20-03 14:20:18;807[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - <==      Total: 1
+2020-20-03 14:20:34;786[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==>  Preparing: SELECT product_id, product_name, product_desc, img_addr, normal_price, promotion_price, priority, create_time, last_edit_time, enable_status, point, product_category_id, shop_id FROM tb_product ORDER BY priority DESC LIMIT ?,?; 
+2020-20-03 14:20:34;842[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==> Parameters: 0(Integer), 3(Integer)
+2020-20-03 14:20:34;888[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - <==      Total: 3
+2020-20-03 14:20:34;895[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - ==>  Preparing: SELECT count(1) FROM tb_product 
+2020-20-03 14:20:34;895[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - ==> Parameters: 
+2020-20-03 14:20:34;897[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - <==      Total: 1
+2020-20-03 14:20:34;901[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==>  Preparing: SELECT product_id, product_name, product_desc, img_addr, normal_price, promotion_price, priority, create_time, last_edit_time, enable_status, point, product_category_id, shop_id FROM tb_product WHERE product_name like '%布雷%' ORDER BY priority DESC LIMIT ?,?; 
+2020-20-03 14:20:34;902[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==> Parameters: 0(Integer), 4(Integer)
+2020-20-03 14:20:34;905[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - <==      Total: 3
+2020-20-03 14:20:34;906[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - ==>  Preparing: SELECT count(1) FROM tb_product WHERE product_name like '%布雷%' 
+2020-20-03 14:20:34;906[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - ==> Parameters: 
+2020-20-03 14:20:34;907[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - <==      Total: 1
+2020-36-03 14:36:10;643[main]DEBUGcom.o2o.util.ImageUtil - current relativeAddr is:upload\item\shop\2\2020030314361087191.jpg
+2020-36-03 14:36:10;865[main]DEBUGcom.o2o.dao.ProductDao.insertProduct - ==>  Preparing: INSERT INTO tb_product(product_name,product_desc,img_addr, normal_price,promotion_price,priority,create_time, last_edit_time,enable_status,point,product_category_id, shop_id) VALUES (?,?,?, ?,?,?,?, ?,?,?,?, ?) 
+2020-36-03 14:36:10;921[main]DEBUGcom.o2o.dao.ProductDao.insertProduct - ==> Parameters: 半糖珍珠奶茶(String), 不是很甜的珍珠奶茶(String), upload\item\shop\2\2020030314361087191.jpg(String), null, null, 20(Integer), 2020-03-03 14:36:10.638(Timestamp), 2020-03-03 14:36:10.638(Timestamp), 1(Integer), null, 23(Long), 2(Long)
+2020-41-03 14:41:12;653[main]DEBUGcom.o2o.util.ImageUtil - current relativeAddr is:upload\item\shop\2\2020030314411245595.jpg
+2020-41-03 14:41:12;846[main]DEBUGcom.o2o.dao.ProductDao.insertProduct - ==>  Preparing: INSERT INTO tb_product(product_name,product_desc,img_addr, normal_price,promotion_price,priority,create_time, last_edit_time,enable_status,point,product_category_id, shop_id) VALUES (?,?,?, ?,?,?,?, ?,?,?,?, ?) 
+2020-41-03 14:41:12;897[main]DEBUGcom.o2o.dao.ProductDao.insertProduct - ==> Parameters: 半糖珍珠奶茶(String), 不是很甜的珍珠奶茶(String), upload\item\shop\2\2020030314411245595.jpg(String), null, null, 20(Integer), 2020-03-03 14:41:12.648(Timestamp), 2020-03-03 14:41:12.648(Timestamp), 1(Integer), null, 23(Long), 2(Long)
+2020-41-03 14:41:12;899[main]DEBUGcom.o2o.dao.ProductDao.insertProduct - <==    Updates: 1
+2020-41-03 14:41:12;924[main]DEBUGcom.o2o.util.ImageUtil - current relativeAddr is :upload\item\shop\2\2020030314411261437.jpg
+2020-41-03 14:41:12;924[main]DEBUGcom.o2o.util.ImageUtil - current complete addr is :C:\projectdev\image\upload\item\shop\2\2020030314411261437.jpg
+2020-41-03 14:41:12;961[main]DEBUGcom.o2o.util.ImageUtil - current relativeAddr is :upload\item\shop\2\2020030314411234204.jpg
+2020-41-03 14:41:12;961[main]DEBUGcom.o2o.util.ImageUtil - current complete addr is :C:\projectdev\image\upload\item\shop\2\2020030314411234204.jpg
+2020-41-03 14:41:13;002[main]DEBUGcom.o2o.dao.ProductImgDao.batchInsertProductImg - ==>  Preparing: INSERT INTO tb_product_img(img_addr,img_desc,priority, create_time,product_id) VALUES ( ?, ?, ?, ?, ? ) , ( ?, ?, ?, ?, ? ) 
+2020-41-03 14:41:13;003[main]DEBUGcom.o2o.dao.ProductImgDao.batchInsertProductImg - ==> Parameters: upload\item\shop\2\2020030314411261437.jpg(String), null, null, 2020-03-03 14:41:12.961(Timestamp), 11(Long), upload\item\shop\2\2020030314411234204.jpg(String), null, null, 2020-03-03 14:41:12.979(Timestamp), 11(Long)
+2020-41-03 14:41:13;008[main]DEBUGcom.o2o.dao.ProductImgDao.batchInsertProductImg - <==    Updates: 2
+2020-44-03 14:44:05;406[main]DEBUGcom.o2o.dao.ProductDao.queryProductById - ==>  Preparing: SELECT p.product_id, p.product_name, p.product_desc, p.img_addr, p.normal_price, p.promotion_price, p.priority, p.create_time, p.last_edit_time, p.enable_status, p.point, p.product_category_id, p.shop_id, pm.product_img_id, pm.img_addr AS detail_img, pm.img_desc, pm.priority, pm.create_time FROM tb_product p LEFT JOIN tb_product_img pm ON p.product_id = pm.product_id WHERE p.product_id = ? ORDER BY pm.priority DESC 
+2020-44-03 14:44:05;457[main]DEBUGcom.o2o.dao.ProductDao.queryProductById - ==> Parameters: 11(Long)
+2020-44-03 14:44:05;503[main]DEBUGcom.o2o.dao.ProductDao.queryProductById - <==      Total: 2
+2020-44-03 14:44:05;516[main]DEBUGcom.o2o.util.ImageUtil - current relativeAddr is:upload\item\shop\2\2020030314440531962.jpg
+2020-44-03 14:44:05;652[main]DEBUGcom.o2o.dao.ProductImgDao.queryProductImgList - ==>  Preparing: SELECT product_img_id, img_addr, img_desc, priority, create_time, product_id FROM tb_product_img WHERE product_id=? ORDER BY product_img_id ASC 
+2020-44-03 14:44:05;653[main]DEBUGcom.o2o.dao.ProductImgDao.queryProductImgList - ==> Parameters: 11(Long)
+2020-44-03 14:44:05;655[main]DEBUGcom.o2o.dao.ProductImgDao.queryProductImgList - <==      Total: 2
+2020-44-03 14:44:05;658[main]DEBUGc.o.dao.ProductImgDao.deleteProductImgByProductId - ==>  Preparing: DELETE FROM tb_product_img WHERE product_id = ? 
+2020-44-03 14:44:05;658[main]DEBUGc.o.dao.ProductImgDao.deleteProductImgByProductId - ==> Parameters: 11(Long)
+2020-44-03 14:44:05;659[main]DEBUGc.o.dao.ProductImgDao.deleteProductImgByProductId - <==    Updates: 2
+2020-44-03 14:44:05;660[main]DEBUGcom.o2o.util.ImageUtil - current relativeAddr is :upload\item\shop\2\2020030314440541734.jpg
+2020-44-03 14:44:05;660[main]DEBUGcom.o2o.util.ImageUtil - current complete addr is :C:\projectdev\image\upload\item\shop\2\2020030314440541734.jpg
+2020-44-03 14:44:05;696[main]DEBUGcom.o2o.util.ImageUtil - current relativeAddr is :upload\item\shop\2\2020030314440599039.jpg
+2020-44-03 14:44:05;697[main]DEBUGcom.o2o.util.ImageUtil - current complete addr is :C:\projectdev\image\upload\item\shop\2\2020030314440599039.jpg
+2020-44-03 14:44:05;734[main]DEBUGcom.o2o.dao.ProductImgDao.batchInsertProductImg - ==>  Preparing: INSERT INTO tb_product_img(img_addr,img_desc,priority, create_time,product_id) VALUES ( ?, ?, ?, ?, ? ) , ( ?, ?, ?, ?, ? ) 
+2020-44-03 14:44:05;737[main]DEBUGcom.o2o.dao.ProductImgDao.batchInsertProductImg - ==> Parameters: upload\item\shop\2\2020030314440541734.jpg(String), null, null, 2020-03-03 14:44:05.696(Timestamp), 11(Long), upload\item\shop\2\2020030314440599039.jpg(String), null, null, 2020-03-03 14:44:05.714(Timestamp), 11(Long)
+2020-44-03 14:44:05;738[main]DEBUGcom.o2o.dao.ProductImgDao.batchInsertProductImg - <==    Updates: 2
+2020-44-03 14:44:05;748[main]DEBUGcom.o2o.dao.ProductDao.updateProduct - ==>  Preparing: UPDATE tb_product SET product_name=?, product_desc=?, img_addr=?, last_edit_time=?, product_category_id=? WHERE product_id = ? AND shop_id=? 
+2020-44-03 14:44:05;749[main]DEBUGcom.o2o.dao.ProductDao.updateProduct - ==> Parameters: 三分糖珍珠奶茶(String), 微甜的珍珠奶茶(String), upload\item\shop\2\2020030314440531962.jpg(String), 2020-03-03 14:44:05.35(Timestamp), 23(Long), 11(Long), 2(Long)
+2020-44-03 14:44:05;750[main]DEBUGcom.o2o.dao.ProductDao.updateProduct - <==    Updates: 1
+2020-23-05 13:23:21;411[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==>  Preparing: SELECT product_id, product_name, product_desc, img_addr, normal_price, promotion_price, priority, create_time, last_edit_time, enable_status, point, product_category_id, shop_id FROM tb_product ORDER BY priority DESC LIMIT ?,?; 
+2020-23-05 13:23:21;486[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==> Parameters: 0(Integer), 3(Integer)
+2020-23-05 13:23:21;523[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - <==      Total: 3
+2020-23-05 13:23:21;530[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - ==>  Preparing: SELECT count(1) FROM tb_product 
+2020-23-05 13:23:21;531[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - ==> Parameters: 
+2020-23-05 13:23:21;536[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - <==      Total: 1
+2020-23-05 13:23:49;966[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==>  Preparing: SELECT product_id, product_name, product_desc, img_addr, normal_price, promotion_price, priority, create_time, last_edit_time, enable_status, point, product_category_id, shop_id FROM tb_product ORDER BY priority DESC LIMIT ?,?; 
+2020-23-05 13:23:50;020[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==> Parameters: 0(Integer), 3(Integer)
+2020-23-05 13:23:50;065[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - <==      Total: 3
+2020-23-05 13:23:50;073[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - ==>  Preparing: SELECT count(1) FROM tb_product 
+2020-23-05 13:23:50;073[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - ==> Parameters: 
+2020-23-05 13:23:50;075[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - <==      Total: 1
+2020-23-05 13:23:50;079[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==>  Preparing: SELECT product_id, product_name, product_desc, img_addr, normal_price, promotion_price, priority, create_time, last_edit_time, enable_status, point, product_category_id, shop_id FROM tb_product WHERE product_name like '%布雷%' ORDER BY priority DESC LIMIT ?,?; 
+2020-23-05 13:23:50;080[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==> Parameters: 0(Integer), 4(Integer)
+2020-23-05 13:23:50;086[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - <==      Total: 3
+2020-23-05 13:23:50;087[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - ==>  Preparing: SELECT count(1) FROM tb_product WHERE product_name like '%布雷%' 
+2020-23-05 13:23:50;087[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - ==> Parameters: 
+2020-23-05 13:23:50;089[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - <==      Total: 1
+2020-42-05 13:42:02;175[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==>  Preparing: SELECT product_id, product_name, product_desc, img_addr, normal_price, promotion_price, priority, create_time, last_edit_time, enable_status, point, product_category_id, shop_id FROM tb_product ORDER BY priority DESC LIMIT ?,?; 
+2020-42-05 13:42:02;243[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==> Parameters: 0(Integer), 3(Integer)
+2020-42-05 13:42:02;295[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - <==      Total: 3
+2020-42-05 13:42:02;302[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - ==>  Preparing: SELECT count(1) FROM tb_product 
+2020-42-05 13:42:02;303[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - ==> Parameters: 
+2020-42-05 13:42:02;305[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - <==      Total: 1
+2020-42-05 13:42:02;311[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==>  Preparing: SELECT product_id, product_name, product_desc, img_addr, normal_price, promotion_price, priority, create_time, last_edit_time, enable_status, point, product_category_id, shop_id FROM tb_product WHERE product_name like '%布雷%' ORDER BY priority DESC LIMIT ?,?; 
+2020-42-05 13:42:02;311[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - ==> Parameters: 0(Integer), 4(Integer)
+2020-42-05 13:42:02;316[main]DEBUGcom.o2o.dao.ProductDao.queryProductList - <==      Total: 3
+2020-42-05 13:42:02;317[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - ==>  Preparing: SELECT count(1) FROM tb_product WHERE product_name like '%布雷%' 
+2020-42-05 13:42:02;318[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - ==> Parameters: 
+2020-42-05 13:42:02;319[main]DEBUGcom.o2o.dao.ProductDao.queryProductCount - <==      Total: 1
+2020-19-05 20:19:25;572[main]DEBUGcom.o2o.dao.HeadLineDao.queryHeadLine - ==>  Preparing: SELECT line_id, line_name, line_link, line_img, priority, enable_status, create_time, last_edit_time FROM tb_head_line ORDER BY priority DESC 
+2020-19-05 20:19:25;632[main]DEBUGcom.o2o.dao.HeadLineDao.queryHeadLine - ==> Parameters: 
+2020-19-05 20:19:25;674[main]DEBUGcom.o2o.dao.HeadLineDao.queryHeadLine - <==      Total: 1
+2020-29-05 20:29:10;832[main]DEBUGcom.o2o.dao.HeadLineDao.queryHeadLine - ==>  Preparing: SELECT line_id, line_name, line_link, line_img, priority, enable_status, create_time, last_edit_time FROM tb_head_line ORDER BY priority DESC 
+2020-29-05 20:29:10;904[main]DEBUGcom.o2o.dao.HeadLineDao.queryHeadLine - ==> Parameters: 
+2020-29-05 20:29:10;958[main]DEBUGcom.o2o.dao.HeadLineDao.queryHeadLine - <==      Total: 1

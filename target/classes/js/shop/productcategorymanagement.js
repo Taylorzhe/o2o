@@ -17,7 +17,7 @@ $(function () {
                                 tempHtml += ''
                                     + '<div class="row row-product-category now">'
                                     + '<div class="col-33 product-category-name">'
-                                    + item.productCategoryName
+                                    + item.productName
                                     + '</div>'
                                     + '<div class="col-33">'
                                     + item.priority

@@ -13,6 +13,11 @@ public class ShopCategoryServiceImpl implements ShopCategoryService {
     @Autowired
     private ShopCategoryDao shopCategoryDao;
 
+    /**
+     * 根据查询条件获取shopCategoryList列表
+     * @param shopCategoryCondition
+     * @return
+     */
     @Override
     public List<ShopCategory> getShopCategoryList(ShopCategory shopCategoryCondition) {
         return shopCategoryDao.queryShopCategory(shopCategoryCondition);

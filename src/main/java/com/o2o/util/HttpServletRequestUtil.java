@@ -11,12 +11,13 @@ public class HttpServletRequestUtil {
         }
     }
 
-    public static long getLong(HttpServletRequest request,String key){
+    public static Long getLong(HttpServletRequest request,String key){
         try {
+//            System.out.println(request.getParameter(key));
             return Long.valueOf(request.getParameter(key));
         }catch (Exception e){
             e.printStackTrace();
-            return -1;
+            return -1L;
         }
     }
 

@@ -2,7 +2,9 @@ package com.o2o.dao;
 
 import com.o2o.entity.Product;
 import org.apache.ibatis.annotations.Param;
+import org.apache.ibatis.annotations.Select;
 
+import java.util.HashMap;
 import java.util.List;
 
 public interface ProductDao {
@@ -64,4 +66,8 @@ public interface ProductDao {
      */
     int deleteProduct(@Param("productId") long productId, @Param("shopId") long shopId);
 
+    @Select("SELECT *\n" +
+            "FROM tb_product\n" +
+            "WHERE tb_product.shop_id = #{proId}")
+    List<HashMap<String, Object>> findProId(Long proId);
 }

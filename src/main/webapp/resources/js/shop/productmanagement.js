@@ -1,6 +1,6 @@
 $(function() {
     // 获取此店铺下的商品列表的URL
-    var listUrl = '/o2o/shopadmin/getproductlistbyshop?pageIndex=1&pageSize=999';
+    var listUrl = '/o2o/shopadmin/getproductlistbyshop';
     // 商品下架URL
     var statusUrl = '/o2o/shopadmin/modifyproduct';
     getList();
@@ -19,9 +19,10 @@ $(function() {
                 // 商品名称，优先级，上架\下架(含productId)，编辑按钮(含productId)
                 // 预览(含productId)
                 productList.map(function(item, index) {
+                    console.log("shangpin", item)
                     var textOp = "下架";
                     var contraryStatus = 0;
-                    if (item.enableStatus == 0) {
+                    if (item.enableStatus === 0) {
                         // 若状态值为0，表明是已下架的商品，操作变为上架(即点击上架按钮上架相关商品)
                         textOp = "上架";
                         contraryStatus = 1;
@@ -31,7 +32,7 @@ $(function() {
                     // 拼接每件商品的行信息
                     tempHtml += '' + '<div class="row row-product">'
                         + '<div class="col-33">'
-                        + item.productName
+                        + item.product_name
                         + '</div>'
                         + '<div class="col-20">'
                         + item.point
@@ -83,6 +84,8 @@ $(function() {
                         + e.currentTarget.dataset.id;
                 }
             });
+
+
     function changeItemStatus(id, enableStatus) {
         // 定义product json对象并添加productId以及状态(上架/下架)
         var product = {};
